@@ -1,3 +1,7 @@
+import { CiTwitter } from 'react-icons/ci';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FaAngellist } from 'react-icons/fa';
+
 export default function HomePage () {
     return (
         <div className="flex px-40">
@@ -19,6 +23,12 @@ export default function HomePage () {
                 </div>
             </div>
             <p className="text-xs tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-20 right-0">SCROLL DOWN</p>
+            <div className='flex absolute bottom-10 left-20 w-1/6 justify-around'>
+                <CiTwitter />
+                <FiGithub />
+                <FiLinkedin />
+                <FaAngellist />
+            </div>
         </div>
     )
 }
