@@ -2,7 +2,7 @@ import Skills from './sckills'
 
 export default function About (){
     return (
-        <div className='bg-[#161922]  py-20 px-60'>
+        <div className='bg-[#161922]  py-40 px-60'>
             <div className="flex">
                 <div className="w-2/4">
                     <h1 className="text-[9rem]">3<span className="text-[#ffd175]">.</span></h1>

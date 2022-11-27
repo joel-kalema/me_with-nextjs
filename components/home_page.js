@@ -1,4 +1,3 @@
-import { WiDirectionRight } from 'react-icons/wi';
 import { CiTwitter } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';

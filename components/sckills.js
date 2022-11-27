@@ -1,3 +1,4 @@
+import { GiSkills } from 'react-icons/gi';
 import ProgressBar from "@ramonak/react-progress-bar";
 
 export default function Skills (){
@@ -21,7 +22,10 @@ export default function Skills (){
     ]
     return(
         <div className="flex mt-20">
-            <h1 className="text-[#ffd175]">My skills</h1>
+            <div className='mt-12 mr-12'>
+                <h1 className="text-[#ffd175] font-bold">My skills</h1>
+                <h1 className='text-6xl mt-2'><GiSkills /></h1>
+            </div>
             <div className="flex flex-wrap justify-between w-4/5">
                 {skills.map((item) => (
                     <div className="w-2/4 mt-12 text-xs">
