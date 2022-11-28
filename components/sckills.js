@@ -1,46 +1,19 @@
-import { GiSkills } from 'react-icons/gi';
-import ProgressBar from "@ramonak/react-progress-bar";
+import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
+
 
 export default function Skills (){
-    const skills = [
-        {
-            name: 'UI UX DESIGN',
-            percentage: 90
-        },
-        {
-            name: 'VIDEO ANNIMATION',
-            percentage: 85
-        },
-        {
-            name: 'ELECTRONIC',
-            percentage: 75
-        },
-        {
-            name: 'PROBLEM SOLVING',
-            percentage: 80
-        },
-    ]
+
+    const langages = ['Html', 'Css', 'Sass', 'Tailwind', 'Js', 'React', 'Nextjs', 'Ruby', 'Ruby on Rails', 'Firebase']
     return(
-        <div className="flex mt-20">
-            <div className='mt-12 mr-12'>
-                <h1 className="text-[#ffd175] font-bold">My skills</h1>
-                <h1 className='text-6xl mt-2'><GiSkills /></h1>
-            </div>
-            <div className="flex flex-wrap justify-between w-4/5">
-                {skills.map((item) => (
-                    <div className="w-2/4 mt-12 text-xs">
-                        <h1>{item.name} {item.percentage}%</h1>
-                        <ProgressBar
-                            completed={item.percentage}
-                            maxCompleted={100}
-                            className="wrapper "
-                            barContainerClassName="container"
-                            completedClassName="barCompleted"
-                            labelClassName="label"
-                        />
-                    </div>
-                ))}
+        <div className="w-2/3 bg-[#191d28] py-14 px-16 absolute bottom-[-10rem] shadow-xl">
+            <div className="w-full">
+                <h1 className="text-[#ffd175] font-bold text-2xl">LANGUAGES AND FRAMEWORKS</h1>
+                <div className="flex flex-wrap mt-6 justify-between">
+                    {langages.map((item) => (
+                        <p className="w-1/5 flex mt-4"><IoMdCheckmarkCircleOutline className="text-[#ffd175] mr-2" />{item}</p>
+                    ))}
                 </div>
             </div>
+        </div>
     )
 }
