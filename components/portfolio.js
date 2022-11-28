@@ -1,4 +1,5 @@
 import { projects } from "./data/portfolio"
+import Link from "next/link"
 
 export default function Portfolio (){
     return(
@@ -9,7 +10,10 @@ export default function Portfolio (){
                 {projects.map((item) => (
                    <div className="w-[30%] mt-10 bg-[#1b212f]">
                         <img src={item.image} alt='images' />
-                        <div className="p-2">
+                        <div className="p-4">
+                            <div className="flex text-xs">
+                                {item.technologies.map((lang) => (<p>{lang}</p>))}
+                            </div>
                             <h1 className="font-bold">{item.title}</h1>
                         </div>
                    </div> 

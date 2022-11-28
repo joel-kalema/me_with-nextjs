@@ -1,40 +1,7 @@
-import { TbDatabase } from 'react-icons/tb';
-import { BiColorFill } from 'react-icons/bi';
-import { MdSlowMotionVideo } from 'react-icons/md';
+import { skills, expertise } from './data/expeertise'
 
 export default function Area (){
-    const skills = [
-        {
-            name: 'UI UX DESIGN',
-            percentage: 90
-        },
-        {
-            name: 'PROBLEM SOLVING',
-            percentage: 80
-        },
-        {
-            name: 'MOTION VIDEO',
-            percentage: 85
-        },
-        {
-            name: 'ELECTRONIC',
-            percentage: 75
-        }
-    ]
-    const expertise = [
-        {
-            icon: <BiColorFill />,
-            detail: 'UI UX DESIGN'
-        },
-        {
-            icon: <TbDatabase />,
-            detail: 'BACKEND'
-        },
-        {
-            icon: <MdSlowMotionVideo />,
-            detail: 'MOTION VIDEO'
-        }
-    ]
+
     return (
         <div className='px-60 py-40 text-center'>
             <h1 className='text-3xl text-[#ffd175] text-center mt-40'>Expertise Area</h1>
