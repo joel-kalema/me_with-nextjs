@@ -43,7 +43,7 @@ export default function Area (){
             </p>
             <div className='flex justify-around mt-12'>
                 {expertise.map((item) => (
-                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-1/4 flex flex-col justify-center'>
+                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-1/4 flex flex-col justify-center hover:bg-[#1b212f]'>
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
                         <p className='text-xs mt-4 tracking-[.2em]'>{item.detail}</p>
                     </div>

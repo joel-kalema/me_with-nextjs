@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         id: 2,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
@@ -17,7 +17,7 @@ export const projects = [
     },
     {
         id: 3,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
@@ -25,7 +25,7 @@ export const projects = [
     },
     {
         id: 4,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
@@ -33,7 +33,7 @@ export const projects = [
     },
     {
         id: 5,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
@@ -41,7 +41,7 @@ export const projects = [
     },
     {
         id: 6,
-        image: '',
+        image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
         technologies: ['React', 'Scss'],
