@@ -3,8 +3,6 @@ import { IoLogoSass } from 'react-icons/io';
 import { DiPostgresql, DiReact, DiRubyRough } from 'react-icons/di';
 import { SiRubyonrails } from 'react-icons/si';
 
-// const langages = ['Html', 'Css', 'Sass', 'Tailwind', 'Js', 'React', 'Nextjs', 'Ruby', 'Ruby on Rails', 'Firebase']
-
 export const langages = [
     {
         langages: 'Html',
@@ -45,5 +43,5 @@ export const langages = [
     {
         langages: 'Firebase',
         icons: <TbBrandFirebase />
-    },
+    }
 ]
