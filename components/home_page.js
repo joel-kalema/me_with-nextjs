@@ -6,7 +6,7 @@ export default function HomePage () {
     return (
         <div className="flex px-40 h-screen">
             <div className="my-20 pl-10">
-                <span className=""></span>
+                <span className="w-10 h-2 bg-[#ffd175]"></span>
                 <p className="text-xs text-[#ffd175] my-5">HELLO</p>
                 <h1 className="text-5xl font-bold">I'm <span className="text-[#ffd175]">Joel</span> Kalema</h1>
                 <h3 className="my-3">software developper</h3>

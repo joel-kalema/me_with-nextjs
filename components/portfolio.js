@@ -13,7 +13,7 @@ export default function Portfolio (){
                         <img src={item.image} alt='images' />
                         <div className="pt-2 pb-6 pl-6 pr-6">
                             <div className="flex text-xs">
-                                <div className="w-[1.5rem] h-[3rem] bg-[#ffd175] mt-[-2rem]"></div>
+                                <div className="w-[1.5rem] h-[3rem] bg-[#ffd175] mt-[-2rem] exp backdrop-blur-md"></div>
                                 {item.technologies.map((lang) => (<p className="ml-2 text-[#c0c4d0a6]">{lang}</p>))}
                             </div>
                             <h1 className="font-bold mt-6 text-[#c0c4d0a6]">{item.title}</h1>
