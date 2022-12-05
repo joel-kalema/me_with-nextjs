@@ -1,6 +1,6 @@
 import { projects } from "./data/portfolio"
 import { TbArrowNarrowRight } from 'react-icons/tb';
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Portfolio (){
     return(
