@@ -6,7 +6,7 @@ export default function HomePage () {
     return (
         <div className="flex px-40 h-screen">
             <div className="my-20 pl-10">
-                <span className="w-10 h-2 bg-[#ffd175]"></span>
+                <span className=""></span>
                 <p className="text-xs text-[#ffd175] my-5">HELLO</p>
                 <h1 className="text-5xl font-bold">I'm <span className="text-[#ffd175]">Joel</span> Kalema</h1>
                 <h3 className="my-3">software developper</h3>
@@ -26,10 +26,10 @@ export default function HomePage () {
                 SCROLL DOWN
             </p>
             <div className='flex absolute bottom-10 left-20 w-1/6 justify-around'>
-                <CiTwitter />
-                <FiGithub />
-                <FiLinkedin />
-                <FaAngellist />
+                <a href=''><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
+                <a href='https://github.com/joel-kalema'><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
+                <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
+                <a href='https://angel.co/u/joel-kalema'><FaAngellist className='hover:text-[#ffd175]'/></a>
             </div>
         </div>
     )

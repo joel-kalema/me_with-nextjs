@@ -3,6 +3,7 @@ import { IoLogoSass } from 'react-icons/io';
 import { DiPostgresql, DiReact, DiRubyRough } from 'react-icons/di';
 import { SiRubyonrails } from 'react-icons/si';
 
+
 export const langages = [
     {
         langages: 'Html',
