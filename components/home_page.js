@@ -26,7 +26,7 @@ export default function HomePage () {
                 SCROLL DOWN
             </p>
             <div className='flex absolute bottom-10 left-20 w-1/6 justify-around'>
-                <a href=''><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
+                <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
                 <a href='https://github.com/joel-kalema'><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
                 <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
                 <a href='https://angel.co/u/joel-kalema'><FaAngellist className='hover:text-[#ffd175]'/></a>
