@@ -1,3 +1,6 @@
+import { TbArrowNarrowRight } from 'react-icons/tb';
+import { AiOutlineDash } from 'react-icons/ai';
+
 export default function Partenets (){
     return(
         <div className="flex justify-center flex-col items-center px-60 pt-20">
@@ -10,6 +13,7 @@ export default function Partenets (){
                         <span className="text-[#ffd175]">Just say Hello!</span>
                     </p>
                 </div>
+                <p className='text-[#ffd175] text-xl mt-16 ml-[-2rem] flex'><AiOutlineDash /><TbArrowNarrowRight /></p>
                 <div className="w-2/5 bg-[#1b212f] p-12 mb-[-13rem] shadow-xl">
                 <form>
                     <input type="text" name="userName" id="name" placeholder="Name" maxlength="30" required /><br />

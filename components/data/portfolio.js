@@ -4,6 +4,7 @@ export const projects = [
         image: '/images/live.jpg',
         title: 'Global-warming',
         details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
+        fewDetail :'This is a responsive website...',
         technologies: ['Html', 'Css', 'Js'],
         live: '#'
     },
@@ -12,15 +13,17 @@ export const projects = [
         image: '/images/todo.jpg',
         title: 'To-Do-list',
         details: 'The To_Do_List is a project designed to help you get organized, achieve your goals and never forget a thing. By keeping record of your plans and allowing you to edit them the way you want.',
-        technologies: ['React', 'Scss'],
+        fewDetail :'The To_Do_List is a project...',
+        technologies: ['Htlm', 'Css', 'js', 'Webpack'],
         live: '#'
     },
     {
         id: 3,
-        image: '/images/movi.jpg',
+        image: '/images/livemovi1.jpg',
         title: 'SHOWNET',
         details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
-        technologies: ['React', 'Scss'],
+        fewDetail :'A movie database website that...',
+        technologies: ['Js', 'Htlm', 'Css'],
         live: '#'
     },
     {
@@ -28,6 +31,7 @@ export const projects = [
         image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
+        fewDetail :'this project was made to help...',
         technologies: ['React', 'Scss'],
         live: '#'
     },
@@ -36,6 +40,7 @@ export const projects = [
         image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
+        fewDetail :'this project was made to help...',
         technologies: ['React', 'Scss'],
         live: '#'
     },
@@ -44,7 +49,16 @@ export const projects = [
         image: '/images/live.jpg',
         title: 'this is the title',
         details: 'this project was made to help people',
+        fewDetail :'this project was made to help...',
         technologies: ['React', 'Scss'],
         live: '#'
     }
-]
+];
+
+const getProject = (name) => {
+    const formattedName = name.split('_').join(' ');
+    const project = projects.find(project => project.title === formattedName);
+    return project;
+};
+
+export default getProject;

@@ -5,19 +5,19 @@ import { MdSlowMotionVideo } from 'react-icons/md';
 export const skills = [
     {
         name: 'UI UX DESIGN',
-        percentage: 90
+        percentage: 'Very Good'
     },
     {
         name: 'PROBLEM SOLVING',
-        percentage: 80
+        percentage: 'Very Good'
     },
     {
         name: 'MOTION VIDEO',
-        percentage: 85
+        percentage: 'Good'
     },
     {
         name: 'ELECTRONIC',
-        percentage: 75
+        percentage: 'Good'
     }
 ]
 export const expertise = [

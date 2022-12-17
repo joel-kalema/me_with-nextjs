@@ -9,7 +9,6 @@ export default function Header () {
                 <li><Link href='#'>ABOUT</Link></li>
                 <li><Link href='#'>SERVICE</Link></li>
                 <li><Link href='#'>PORTFOLIO</Link></li>
-                <li><Link href='#'>RESUME</Link></li>
                 <li><Link href='#'>CONTACT</Link></li>
             </ul>
         </div>

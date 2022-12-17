@@ -1,5 +1,6 @@
 import { CiTwitter } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { BiDownload } from 'react-icons/bi';
 import { FaAngellist } from 'react-icons/fa';
 
 export default function HomePage () {
@@ -7,13 +8,16 @@ export default function HomePage () {
         <div className="flex px-40 h-screen">
             <div className="my-20 pl-10">
                 <span className=""></span>
-                <p className="text-xs text-[#ffd175] my-5">HELLO</p>
+                <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
                 <h1 className="text-5xl font-bold">I'm <span className="text-[#ffd175]">Joel</span> Kalema</h1>
                 <h3 className="my-3">software developper</h3>
                 <p className="w-4/5 text-sm"> I can help you build a product, feature or website Look through some
                     of my work and experience! If you like what you see and have a project
                     you need coded, don’t hestiate to contact me.</p>
-                <button type='button' className="bg-[#ffd175] my-12">Hire me</button>
+                <div className='flex my-12'>
+                    <button type='button' className="bg-[#ffd175] mr-6">Hire me</button>
+                    <a href="CV_JOEL KALEMA.pdf" download="CV_JOEL KALEMA.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
+                </div>
             </div>
             <div className="relative">
                 <img src="/images/joel.png" alt="joel" />
