@@ -40,9 +40,6 @@ You should run `npm run build` again any time you make changes to the site.
 - Twitter: [@JoelJklm](https://twitter.com/JoelJklm)
 - LinkedIn: [joel kalema](https://www.linkedin.com/in/joel-kalema-30518a230/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file
-
-
 ## 🤝 Contributing
 
 
