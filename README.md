@@ -1,33 +1,67 @@
 
+# Portfolio
+![joel next](https://user-images.githubusercontent.com/57408419/208531303-b7fd78ac-8985-4063-aba2-4da30dd03a68.jpg)
+
+> My personal portfolio is a responsive web app that I used to present my skills, projects and other details about myself. It also contains a form that can be used to reach out to me directly.
+
+## Built With
+
+- Nextjs
+- Tailwind
+
+## Live Demo
+
+
+
 ## Getting Started
 
-First, run the development server:
+To get started, just clone the repository and run `npm install && npm run dev`:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+    git clone https://github.com/joel-kalema/me_with-nextjs.git
+    npm install
+    npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You also need to enable `localhost:3000` in your CORS Origins settings!
+
+Note: If you are running on Windows run install --noptional flag (i.e. `npm install --no-optional`) which will skip installing fsevents.
+
+
+If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm start`:
+
+    npm install
+    npm run build
+    npm start
+
+You should run `npm run build` again any time you make changes to the site.
+
+## Author
+
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://twitter.com/JoelJklm)
+- LinkedIn: [joel kalema](https://www.linkedin.com/in/joel-kalema-30518a230/)
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
+## 🤝 Contributing
+
+
+Contributions, issues, and feature requests are welcome!
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to check the [issues page](https://github.com/joel-kalema/Mobile-version-skeleton/issues).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Show your support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Give a ⭐️ if you like this project!
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

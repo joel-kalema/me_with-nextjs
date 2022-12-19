@@ -1,0 +1,67 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300;700&display=swap');
+
+body {
+    background-color: #191d28;
+    color: #c0c4d0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px
+}
+
+button {
+    background-color: #ffd175;
+    color: #191d28;
+    padding: .3rem 2rem;
+    font-size: small;
+}
+
+.name {
+    font-family: 'Allura', cursive;
+}
+
+input,
+textarea {
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: .8rem;
+    padding: .5rem 0;
+    color: #808dad;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px #808dad solid;
+}
+
+textarea {
+  min-width: 5rem;
+  max-height: 5rem;
+}
+
+.container::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.container::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #f7f4ed;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #e0cbcb;
+  border-radius: 100vh;
+  border: 3px solid #f6f7ed;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
+}
+
+@layer utilities {
+  .scrollbar-medium::-webkit-scrollbar {
+    width: 12px;
+  }
+}
+
