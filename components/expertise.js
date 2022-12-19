@@ -20,8 +20,8 @@ export default function Area (){
                 <h1 className="text-[#ffd175] font-bold text-2xl">My skills</h1>
                 <div className="flex justify-between mt-12 relative">
                     {skills.map((item) => (
-                        <div className="w-1/5 mt-20 text-xs relative text-center">
-                            <h1 className="mb-1">{item.name} <span  className="absolute text-4xl font-bold ml-4 top-[-1rem] left-0 text-[#c0c4d01e] text-center">{item.percentage}</span></h1>
+                        <div className="w-1/5 mt-20 text-xs relative">
+                            <h1 className="mb-1">{item.name} <span  className="absolute text-2xl font-bold mx-auto top-[-1rem] left-0 text-[#c0c4d01e]">{item.percentage}</span></h1>
                         </div>
                     ))}
                 </div>

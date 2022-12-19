@@ -17,7 +17,7 @@ export default function Portfolio (){
     }
 
     return(
-        <div className="bg-[#161922] py-40 px-60">
+        <div className="bg-[#161922] py-40 px-60" id="portfolio">
             <h1 className='text-3xl text-[#ffd175] text-center mb-12'>Portfolio</h1>
             <h2>Some of my best works</h2>
             <div className="flex flex-wrap justify-between">
