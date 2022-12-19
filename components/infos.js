@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import AOS from "aos";
 import { CiTwitter, CiMail } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';
@@ -5,9 +7,14 @@ import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { TbPhoneCalling } from 'react-icons/tb';
 
 export default function Infos (){
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
     return(
         <div className='bg-[#161922] py-20'> 
-            <div className='w-3/4 px-60'>
+            <div className='w-3/4 px-60' data-aos="fade-up" data-aos-duration="1000">
                 <div className='contact_info text-[#ffd175] text-sm'>
                     <p className='flex items-center mb-2'><span className='mr-2'><HiOutlineLocationMarker /></span> Kigali</p>
                     <p className='flex items-center mb-2'><span className='mr-2'><CiMail /></span> joelkalema63@gmail.com</p>

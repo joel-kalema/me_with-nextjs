@@ -1,9 +1,17 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
 import { CiTwitter } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { BiDownload } from 'react-icons/bi';
 import { FaAngellist } from 'react-icons/fa';
 
 export default function HomePage () {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+    
+
     return (
         <div className="flex px-40 h-screen">
             <div className="my-20 pl-10">

@@ -1,9 +1,16 @@
 import Skills from './sckills'
+import { useEffect } from "react";
+import AOS from "aos";
 
 export default function About (){
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
     return (
         <div className='bg-[#161922] py-40 px-60 relative'>
-            <div className="flex">
+            <div className="flex" data-aos="fade-up" data-aos-duration="2000">
                 <div className="w-2/4">
                     <h1 className="text-[11rem] font-bold">3<span className="text-[#ffd175]">.</span></h1>
                     <div>

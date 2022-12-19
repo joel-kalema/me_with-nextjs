@@ -1,5 +1,6 @@
 import { projects } from "./data/portfolio";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import AOS from "aos";
 import { TbArrowNarrowRight } from 'react-icons/tb';
 import { BiArrowBack } from 'react-icons/bi';
 import {AiOutlineDash, AiFillGithub} from 'react-icons/ai';
@@ -16,13 +17,18 @@ export default function Portfolio (){
         router.push(`/projects/${project.title.split(' ').join('_')}`);
     }
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
     return(
-        <div className="bg-[#161922] py-40 px-60" id="portfolio">
+        <div className="bg-[#161922] py-40 px-60" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mb-12'>Portfolio</h1>
             <h2>Some of my best works</h2>
-            <div className="flex flex-wrap justify-between">
+            <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map((project) => (
-                   <div className="w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl">
+                   <div className="w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="3000">
                         <img src={project.image} alt='images' />
                         <div className="pt-2 pb-6 pl-6 pr-6">
                             <div className="flex text-xs">
