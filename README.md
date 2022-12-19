@@ -47,8 +47,6 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 
 Contributions, issues, and feature requests are welcome!
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages
-
 
 Feel free to check the [issues page](https://github.com/joel-kalema/Mobile-version-skeleton/issues).
 
