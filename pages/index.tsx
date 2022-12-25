@@ -14,12 +14,12 @@ export default function Home() {
         <div className={`${styles.container}`}>
             <Header /> 
             <HomePage />
-            <About />
+            {/* <About />
             <Area />
             <Portfolio />
             <Partenets />
             <Infos />
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
