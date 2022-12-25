@@ -47,7 +47,7 @@ export default function Portfolio (){
                    </div> 
                 ))}
             </div>
-            {popUptoggle && (
+            {/* {popUptoggle && (
                 <div onClick={content} className='fixed left-0 top-0 w-full h-screen bg-[#191d28ea] py-20 flex justify-center items-center exp backdrop-blur-xl' >
                     <div onClick={(e) => e.stopPropagation()} className='bg-[#1b212f] w-2/5 shadow-xl' >
                         <a  onClick={content} className=' hover:text-[#ffd175] text-xl m-2 cursor-pointer flex w-1/6' ><BiArrowBack /><AiOutlineDash /></a>
@@ -69,7 +69,7 @@ export default function Portfolio (){
                         ))}
                     </div>
                 </div>)
-            }
+            } */}
         </div>
     )
 }

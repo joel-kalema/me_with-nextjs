@@ -10,18 +10,19 @@ export default function Area (){
     }, []);
 
     return (
-        <div className='px-60 py-40 text-center' data-aos="fade-up" data-aos-duration="3000">
+        <div className='px-60 py-40 text-center' data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mt-40'>Expertise Area</h1>
             <p className='text-sm text-center w-2/4 mx-auto my-6'>
                 I'm Building scalable web applications, video animations, and beautiful websites for companies.
             </p>
             <div className='flex justify-around mt-12'>
                 {expertise.map((item) => (
-                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-[32%] flex flex-col justify-center hover:bg-[#1b212f]' data-aos="flip-left"
+                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-[32%] flex flex-col justify-center hover:bg-[#1b212f] hover:shadow-2xl hover:border-[#1b212f]' data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
-                        <p className='text-xs mt-4 tracking-[.2em]'>{item.detail}</p>
+                        <p className='text-xs mt-4 tracking-[.2em]'>{item.title}</p>
+                        <p className='text-xs mt-4'>{item.detail}</p>
                     </div>
                 ))}
             </div>
