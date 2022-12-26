@@ -14,8 +14,8 @@ export default function Home() {
         <div className={`${styles.container}`}>
             <Header /> 
             <HomePage />
-            {/* <About />
-            <Area />
+            <About />
+            {/* <Area />
             <Portfolio />
             <Partenets />
             <Infos />
