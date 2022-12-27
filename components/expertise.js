@@ -15,7 +15,7 @@ export default function Area (){
             <p className='text-sm text-center w-2/4 mx-auto my-6'>
                 I'm Building scalable web applications, video animations, and beautiful websites for companies.
             </p>
-            <div className='flex flex-col md:flex-row justify-around mt-12 w-[80%] mx-auto'>
+            <div className='flex flex-col md:flex-row justify-around mt-12 w-[90%] mx-auto'>
                 {expertise.map((item) => (
                     <div className='border-solid border-[#161922] border-2 py-6 px-12 w-full mt-8 md:w-[32%] flex flex-col justify-center hover:bg-[#1b212f] hover:shadow-2xl hover:border-[#1b212f]' data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
