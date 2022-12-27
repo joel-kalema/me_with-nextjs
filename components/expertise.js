@@ -21,14 +21,14 @@ export default function Area (){
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
-                        <p className='text-xs mt-4 tracking-[.2em]'>{item.title}</p>
+                        <h2 className='text-xs mt-4 tracking-[.2em]'>{item.title}</h2>
                         <p className='text-xs mt-4'>{item.detail}</p>
                     </div>
                 ))}
             </div>
             <div className="w-full mt-24">
                 <h1 className="text-[#ffd175] font-bold text-2xl">My skills</h1>
-                <div className="flex flex-wrap justify-between mt-12">
+                <div className="flex flex-wrap justify-between mt-12 px-6">
                     {skills.map((item) => (
                         <div className="w-2/4 md:w-1/5 mt-20 text-sm text-center">
                             <h1 className="mb-1">{item.name}</h1>
