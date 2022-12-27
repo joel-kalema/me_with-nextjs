@@ -18,8 +18,8 @@ export default function Home() {
             <Area />
             <Portfolio />
             <Partenets />
-            {/* <Infos />
-            <Footer /> */}
+            <Infos />
+            <Footer />
         </div>
     )
 }
