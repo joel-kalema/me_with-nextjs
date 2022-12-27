@@ -28,9 +28,9 @@ export default function Area (){
             </div>
             <div className="w-full mt-24">
                 <h1 className="text-[#ffd175] font-bold text-2xl">My skills</h1>
-                <div className="flex justify-between mt-12 relative">
+                <div className="flex flex-wrap justify-between mt-12">
                     {skills.map((item) => (
-                        <div className="w-1/5 mt-20 text-sm text-center">
+                        <div className="w-2/4 md:w-1/5 mt-20 text-sm text-center">
                             <h1 className="mb-1">{item.name}</h1>
                             <h1  className="text-2xl font-bold text-[#c0c4d01e]">{item.percentage}</h1>
                         </div>
