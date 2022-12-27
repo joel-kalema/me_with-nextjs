@@ -9,7 +9,7 @@ export default function About (){
     }, []);
 
     return (
-        <div className='bg-[#161922] py-10 md:py-40 px-8 lg:px-60 md:px-24' data-aos="fade-up" data-aos-duration="1000">
+        <div className='bg-[#161922] py-10 md:py-40 px-8 lg:px-60 md:px-24' id='about' data-aos="fade-up" data-aos-duration="1000">
             <div className="flex flex-col md:flex-row">
                 <div className="lg:w-2/4 w-full text-center md:text-start md:w-2/5 lg:2/4"  data-aos="fade-up" data-aos-duration="1000">
                     <h1 className="text-[11rem] font-bold">3<span className="text-[#ffd175] animate-ping">.</span></h1>
