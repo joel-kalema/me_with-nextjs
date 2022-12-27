@@ -1,4 +1,5 @@
 import Skills from './sckills'
+import { Link } from "next-scroll";
 import { useEffect } from "react";
 import AOS from "aos";
 
@@ -26,7 +27,7 @@ export default function About (){
                         digging into hard problems, learning new languages and 
                         technologies.</p>
                     <h1 className="name text-[#ffd175] text-5xl my-4">joel kalema</h1>
-                    <button type='button' className="bg-[#ffd175] my-10">Hire me</button>
+                    <button type='button' className="bg-[#ffd175] my-10"><Link to='contact' offset={100} duration={700}>Hire me</Link></button>
                 </div>
             </div>
             <Skills />
