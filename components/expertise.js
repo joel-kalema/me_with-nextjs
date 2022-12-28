@@ -22,7 +22,7 @@ export default function Area (){
                     data-aos-duration="2000">
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
                         <h2 className='text-xs mt-4 tracking-[.2em]'>{item.title}</h2>
-                        <p className='text-xs mt-4'>{item.detail}</p>
+                        <p className='text-[.7rem] mt-4'>{item.detail}</p>
                     </div>
                 ))}
             </div>
