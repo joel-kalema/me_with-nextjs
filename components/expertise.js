@@ -17,16 +17,14 @@ export default function Area (){
             </p>
             <div className='flex flex-col md:flex-row justify-around mt-12 w-[90%] mx-auto'>
                 {expertise.map((item) => (
-                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-full mt-8 md:w-[32%] flex flex-col justify-center hover:bg-[#1b212f] hover:shadow-2xl hover:border-[#1b212f]' data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
+                    <div className='border-solid border-[#161922] border-2 py-6 px-12 w-full mt-8 md:w-[32%] flex flex-col justify-center hover:bg-[#1b212f] hover:shadow-2xl hover:border-[#1b212f]' data-aos="fade-up" data-aos-duration="1000">
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
                         <h2 className='text-xs mt-4 tracking-[.2em]'>{item.title}</h2>
                         <p className='text-[.7rem] mt-4'>{item.detail}</p>
                     </div>
                 ))}
             </div>
-            <div className="w-full mt-24">
+            <div className="w-full mt-24" data-aos="fade-up" data-aos-duration="1000">
                 <h1 className="text-[#ffd175] font-bold text-2xl">My skills</h1>
                 <div className="flex flex-wrap justify-between mt-12 px-6">
                     {skills.map((item) => (
