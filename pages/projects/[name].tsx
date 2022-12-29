@@ -12,8 +12,8 @@ export default function Project (){
     return (
         <div>
             <Link href='/#portfolio' className="fixed top-4 left-4 bg-[#c0c4d021] py-1 px-2">Back</Link>
-            <div className="flex py-20 px-60 ">
-                <img src={project?.image} alt='images' className="w-3/5"/>
+            <div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 ">
+                <img src={project?.image} alt='images' className="w-full md:w-3/5"/>
                 <div className="ml-6 relative">
                     <h1 className="font-bold text-3xl mt-8 ml-6 text-[#ffd175]">{project?.title}</h1>
                     <h1 className=" text-9xl font-bold opacity-20 mt-[-5rem]">{project?.title[0]}</h1>
