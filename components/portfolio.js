@@ -23,12 +23,12 @@ export default function Portfolio (){
     }, []);
 
     return(
-        <div className="bg-[#161922] py-40 px-60" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
+        <div className="bg-[#161922] py-20 px-10 md:px-20 lg:px-60" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mb-12'>Portfolio</h1>
             <h2>Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map((project) => (
-                   <div className="w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="3000">
+                   <div className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="3000">
                         <img src={project.image} alt='images' />
                         <div className="pt-2 pb-6 pl-6 pr-6">
                             <div className="flex text-xs">
@@ -37,7 +37,7 @@ export default function Portfolio (){
                             </div>
                             <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
                             <p className="text-xs mt-2 italic">{project.fewDetail}</p>
-                            <div onClick={() => content(project)} className="text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 cursor-pointer">
+                            <div onClick={() => content(project)} className="text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-3/5 cursor-pointer">
                                 SEE MORE 
                                 <span className="text-2xl ml-2 flex">
                                     <AiOutlineDash /><TbArrowNarrowRight/>
@@ -47,7 +47,7 @@ export default function Portfolio (){
                    </div> 
                 ))}
             </div>
-            {popUptoggle && (
+            {/* {popUptoggle && (
                 <div onClick={content} className='fixed left-0 top-0 w-full h-screen bg-[#191d28ea] py-20 flex justify-center items-center exp backdrop-blur-xl' >
                     <div onClick={(e) => e.stopPropagation()} className='bg-[#1b212f] w-2/5 shadow-xl' >
                         <a  onClick={content} className=' hover:text-[#ffd175] text-xl m-2 cursor-pointer flex w-1/6' ><BiArrowBack /><AiOutlineDash /></a>
@@ -69,7 +69,7 @@ export default function Portfolio (){
                         ))}
                     </div>
                 </div>)
-            }
+            } */}
         </div>
     )
 }

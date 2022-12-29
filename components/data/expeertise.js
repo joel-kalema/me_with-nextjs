@@ -23,14 +23,17 @@ export const skills = [
 export const expertise = [
     {
         icon: <BiColorFill />,
-        detail: 'UI UX DESIGN'
+        title:'UI UX DESIGN',
+        detail:'I can create the user interface for your app, website, or other interactive media.'
     },
     {
         icon: <TbDatabase />,
-        detail: 'BACKEND'
+        title:'BACKEND',
+        detail: 'I can build and maintain the mechanisms that process data and perform actions on websites.'
     },
     {
         icon: <MdSlowMotionVideo />,
-        detail: 'MOTION VIDEO'
+        title:'MOTION VIDEO',
+        detail: 'As Motion Graphics Designers, I can create artwork for your websites'
     }
 ]
