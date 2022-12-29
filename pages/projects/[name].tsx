@@ -11,8 +11,8 @@ export default function Project (){
     
     return (
         <div>
-            <Link href='/#portfolio'>back</Link>
-            <div className="flex py-20 px-60">
+            <Link href='/#portfolio' className="fixed top-4 left-4 bg-[#c0c4d021] py-1 px-2">Back</Link>
+            <div className="flex py-20 px-60 ">
                 <img src={project?.image} alt='images' className="w-3/5"/>
                 <div className="ml-6 relative">
                     <h1 className="font-bold text-3xl mt-8 ml-6 text-[#ffd175]">{project?.title}</h1>
@@ -24,8 +24,8 @@ export default function Project (){
                          >{lang}</p>))}
                     </div>
                     <div className="flex text-sm text-[#ffd175]">
-                        <a className="flex items-center cursor-pointer mr-4">Source Code<AiFillGithub /></a>
-                        <a className="flex items-center cursor-pointer">See Live<MdOutlineDirections /></a>
+                        <a className="flex items-center cursor-pointer mr-4">Source Code<AiFillGithub className="ml-1"/></a>
+                        <a className="flex items-center cursor-pointer">See Live<MdOutlineDirections className="ml-1"/></a>
                     </div>
                 </div>
             </div>
