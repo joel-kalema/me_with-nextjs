@@ -45,7 +45,7 @@ export default function HomePage () {
                     SCROLL DOWN
                 </p>
             </div>
-            <div className='mx-auto lg:hidden'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]' /></div>
+            <Link to='about' className='mx-auto lg:hidden'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]'/></Link>
         </div>
     )
 }
