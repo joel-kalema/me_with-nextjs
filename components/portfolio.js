@@ -37,7 +37,7 @@ export default function Portfolio (){
                             </div>
                             <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
                             <p className="text-xs mt-2 italic">{project.fewDetail}</p>
-                            <div onClick={() => content(project)} className="text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 cursor-pointer">
+                            <div onClick={() => content(project)} className="text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-3/5 cursor-pointer">
                                 SEE MORE 
                                 <span className="text-2xl ml-2 flex">
                                     <AiOutlineDash /><TbArrowNarrowRight/>

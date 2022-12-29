@@ -1,4 +1,6 @@
 import { NextRouter, useRouter } from "next/router"
+import { AiFillGithub } from 'react-icons/ai';
+import {MdOutlineDirections} from 'react-icons/md';
 import Link from "next/link";
 import getProject from "../../components/data/portfolio";
 
@@ -20,6 +22,10 @@ export default function Project (){
                         {project?.technologies.map((lang) => (<p
                          className="mr-2 my-4 text-[#c0c4d0a6] font-bold bg-[#c0c4d021] py-1 px-2"
                          >{lang}</p>))}
+                    </div>
+                    <div className="flex text-sm text-[#ffd175]">
+                        <a className="flex items-center cursor-pointer mr-4">Source Code<AiFillGithub /></a>
+                        <a className="flex items-center cursor-pointer">See Live<MdOutlineDirections /></a>
                     </div>
                 </div>
             </div>
