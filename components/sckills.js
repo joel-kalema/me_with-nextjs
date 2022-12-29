@@ -9,7 +9,7 @@ export default function Skills (){
     }, []);
 
     return(
-        <div className="w-4/4 bg-[#1b212f] py-6 md:py-8 lg:py-14 px-4 md:px-8 lg:px-16 mt-20 mb-[-20rem] shadow-xl mx-auto"   data-aos="fade-up" data-aos-duration="1000">
+        <div className="w-4/4 bg-[#1b212f] py-6 md:py-8 lg:py-14 px-4 md:px-8 lg:px-16 mt-20 mb-[-15rem] shadow-xl mx-auto"   data-aos="fade-up" data-aos-duration="1000">
             <div className="w-full">
                 <h1 className="text-[#ffd175] font-bold text-sm md:text-2xl">LANGUAGES AND FRAMEWORKS</h1>
                 <div className="flex flex-wrap mt-6">
