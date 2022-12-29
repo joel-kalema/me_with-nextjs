@@ -1,4 +1,4 @@
-import { skills, expertise } from './data/expeertise'
+import { expertise } from './data/expeertise'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,7 +10,7 @@ export default function Area (){
     }, []);
 
     return (
-        <div className='px-8 md:20 lg:px-60 py-40 text-center' data-aos="fade-up" data-aos-duration="1000">
+        <div className='px-8 md:20 lg:px-60 py-20 text-center' data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mt-40'>Expertise Area</h1>
             <p className='text-sm text-center w-full md:w-2/4 mx-auto my-6'>
                 I'm Building scalable web applications, video animations, and beautiful websites for companies.
@@ -23,17 +23,6 @@ export default function Area (){
                         <p className='text-[.7rem] mt-4'>{item.detail}</p>
                     </div>
                 ))}
-            </div>
-            <div className="w-full mt-24" data-aos="fade-up" data-aos-duration="1000">
-                <h1 className="text-[#ffd175] font-bold text-2xl">My skills</h1>
-                <div className="flex flex-wrap justify-between mt-12 px-6">
-                    {skills.map((item) => (
-                        <div className="w-2/4 md:w-1/5 mt-20 text-sm text-center">
-                            <h1 className="mb-1">{item.name}</h1>
-                            <h1  className="text-2xl font-bold text-[#c0c4d01e]">{item.percentage}</h1>
-                        </div>
-                    ))}
-                </div>
             </div>
         </div>
     )
