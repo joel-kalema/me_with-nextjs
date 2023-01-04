@@ -9,8 +9,8 @@ export default function Header () {
                 <li><Link to='home' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={700} >HOME</Link></li>
                 <li><Link to='about' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={700}>ABOUT</Link></li>
                 <li><Link to='#' className='cursor-pointer hover:text-[#ffd175]'>SERVICE</Link></li>
-                <li><Link to='portfolio' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={700}>PORTFOLIO</Link></li>
-                <li><Link to='contact' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={700}>CONTACT</Link></li>
+                <li><Link to='portfolio' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={1000}>PORTFOLIO</Link></li>
+                <li><Link to='contact' className='cursor-pointer hover:text-[#ffd175]' offset={100} duration={2000}>CONTACT</Link></li>
             </ul>
             <div className="md:hidden">
                 <AiOutlineMenuFold />
