@@ -28,7 +28,7 @@ export default function About (){
                         digging into hard problems, learning new languages and 
                         technologies.</p>
                     <h1 className="name text-[#ffd175] text-5xl my-4">Joel kalema</h1>
-                    <button type='button' className="bg-[#ffd175] my-10"><Link to='contact' offset={100} duration={700}>Hire me</Link></button>
+                    <button type='button' className="bg-[#ffd175] my-10"><Link to='contact' offset={100} duration={1000}>Hire me</Link></button>
                 </div>
             </div>
             <div className="w-full mt-24" data-aos="fade-up" data-aos-duration="1000">
