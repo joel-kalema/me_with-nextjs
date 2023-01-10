@@ -23,7 +23,7 @@ export default function Header () {
                         <div className='flex'>
                             <h1 className='flex atems-center absolute'>
                                 <p className='text-xl mr-2'>MENU</p>
-                                <AiOutlineCloseCircle />
+                                <AiOutlineCloseCircle className='text-2xl mr-2'/>
                             </h1>
                             <div className='flex items-center flex-col mr-16'>
                                 <div className='w-6 h-6 border border-yellow-200 mb-8'></div>
