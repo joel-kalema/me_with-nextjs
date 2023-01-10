@@ -24,8 +24,8 @@ export default function Portfolio (){
 
     return(
         <div className="bg-[#161922] py-20 px-10 md:px-20 lg:px-60" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='text-3xl text-[#ffd175] text-center mb-12'>Portfolio</h1>
-            <h2>Some of my best works</h2>
+            <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
+            <h2 className="text-center mb-6">Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map((project) => (
                    <div className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="3000">
