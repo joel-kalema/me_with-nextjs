@@ -22,7 +22,7 @@ export default function Header () {
                     <div className="flex justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-60 md:px-24">
                         <div className='flex'>
                             <h1 className='flex atems-center absolute'>
-                                <p className='text-xs mr-2'>MENU</p>
+                                <p className='text-xl mr-2'>MENU</p>
                                 <AiOutlineCloseCircle />
                             </h1>
                             <div className='flex items-center flex-col mr-16'>
