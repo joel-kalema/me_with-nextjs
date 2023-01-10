@@ -25,7 +25,7 @@ export default function HomePage () {
                     of my work and experience! If you like what you see and have a project
                     you need coded, don’t hestiate to contact me.</p>
                 <div className='flex my-12'>
-                    <button type='button' className="bg-[#ffd175] mr-6"><Link to='contact' offset={100} duration={700}>Hire me</Link></button>
+                    <button type='button' className="bg-[#ffd175] mr-6"><Link to='contact' offset={100} duration={2000}>Hire me</Link></button>
                     <a href="CV_JOEL KALEMA.pdf" download="CV_JOEL KALEMA.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
                 </div>
                 <div className='flex  w-3/6 lg:ml-[-4rem] mt-10 justify-between'>
