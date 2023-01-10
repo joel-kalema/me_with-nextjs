@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from "next-scroll";
-import { AiOutlineMenuFold } from 'react-icons/ai';
+import { AiOutlineMenuFold, AiOutlineCloseCircle } from 'react-icons/ai';
 import { CiTwitter, CiMail } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';
@@ -21,6 +21,10 @@ export default function Header () {
                 <div className={active}>
                     <div className="flex justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-60 md:px-24">
                         <div className='flex'>
+                            <h1 className='flex atems-center absolute'>
+                                <p className='text-xs mr-2'>MENU</p>
+                                <AiOutlineCloseCircle />
+                            </h1>
                             <div className='flex items-center flex-col mr-16'>
                                 <div className='w-6 h-6 border border-yellow-200 mb-8'></div>
                                 <div className='w-[1px] h-72 bg-[#ffd175]'></div>
