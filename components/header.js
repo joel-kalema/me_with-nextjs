@@ -15,13 +15,13 @@ export default function Header () {
         <div className="flex justify-between py-8 px-10 md:py-8 md:px-20 fixed w-full z-50">
             <h1 className="font-bold w-2/4">Logo</h1>
             <div>
-                <div onClick={navToggle} className="z-50 cursor-pointer">
+                <div onClick={navToggle} className="z-50 cursor-pointer hover:text-[#ffd175]">
                     <h1 className='flex atems-center'><p className='text-xs mr-2'>MENU</p> <AiOutlineMenuFold /></h1>
                 </div>
                 <div className={active}>
                     <div className="flex justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-60 md:px-24">
                         <div className='flex'>
-                            <h1 onClick={navToggle} className='flex atems-center absolute hover:text-[#ffd175] right-20 top-20'>
+                            <h1 onClick={navToggle} className='flex cursor-pointer atems-center absolute hover:text-[#ffd175] right-20 top-20'>
                                 <p className='text-xl mr-2'>MENU</p>
                                 <AiOutlineCloseCircle className='text-2xl'/>
                             </h1>
