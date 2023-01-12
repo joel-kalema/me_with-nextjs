@@ -19,36 +19,36 @@ export default function Header () {
                     <h1 className='flex atems-center'><p className='text-xs mr-2'>MENU</p> <AiOutlineMenuFold /></h1>
                 </div>
                 <div className={active}>
-                    <div className="flex justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-60 md:px-24">
+                    <div className="flex  flex-col md:flex-row md:justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-52 md:px-16">
                         <div className='flex'>
-                            <h1 onClick={navToggle} className='flex cursor-pointer atems-center absolute hover:text-[#ffd175] right-20 top-20'>
+                            <h1 onClick={navToggle} className='flex cursor-pointer atems-center absolute hover:text-[#ffd175] right-20 top-8'>
                                 <p className='text-xl mr-2'>MENU</p>
                                 <AiOutlineCloseCircle className='text-2xl'/>
                             </h1>
-                            <div className='flex items-center flex-col mr-16'>
+                            <div className='flex items-center flex-col mr-4 md:mr-16'>
                                 <div className='w-6 h-6 border border-yellow-200 mb-8'></div>
                                 <div className='w-[1px] h-72 bg-[#ffd175]'></div>
                             </div>
-                            <ul className='text-4xl font-semibold duration-300 ease-out'>
-                                <li onClick={navToggle}><Link to='home' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-10' offset={100} duration={2000}>HOME</Link></li>
-                                <li onClick={navToggle}><Link to='about' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-10' offset={100} duration={2000}>ABOUT</Link></li>
-                                <li onClick={navToggle}><Link to='#' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-10'>SERVICE</Link></li>
-                                <li onClick={navToggle}><Link to='portfolio' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-10' offset={100} duration={2000}>PORTFOLIO</Link></li>
-                                <li onClick={navToggle}><Link to='contact' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-4' offset={100} duration={2000}>CONTACT</Link></li>
+                            <ul className='text-xl md:text-4xl font-semibold duration-300 ease-out mt-20 md:mt-0'>
+                                <li onClick={navToggle}><Link to='home' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-4 md:mb-10' offset={100} duration={2000}>HOME</Link></li>
+                                <li onClick={navToggle}><Link to='about' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-4 md:mb-10' offset={100} duration={2000}>ABOUT</Link></li>
+                                <li onClick={navToggle}><Link to='portfolio' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-4 md:mb-10' offset={100} duration={2000}>PORTFOLIO</Link></li>
+                                <li onClick={navToggle}><Link to='contact' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-4 md:mb-10' offset={100} duration={2000}>CONTACT</Link></li>
+                                <li onClick={navToggle}><Link to='#' className='duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4'>BLOG</Link></li>
                             </ul>
                         </div>
-                        <div className='mb-10 mt-16'>
-                            <h1 className="name text-[#ffd175] text-7xl my-16">Joel kalema</h1>
+                        <div className='mb-10 mt-6 md:mt-16 ml-2 md:ml-0'>
+                            <h1 className="name text-[#ffd175] text-xl md:text-7xl my-6 md:my-16">Joel kalema</h1>
                             <div className='contact_info text-[#ffd175]'>
                                 <p className='flex items-center mb-2'><span className='mr-2'><HiOutlineLocationMarker /></span> Kigali</p>
                                 <p className='flex items-center mb-2'><span className='mr-2'><CiMail /></span> joelkalema63@gmail.com</p>
                                 <p className='flex items-center mb-2 w-full'><span className='mr-2'><TbPhoneCalling /></span> +250 (0) 789-816-723</p>
                             </div>
                             <div className='flex w-full md:w-3/4 mt-4'>
-                                <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
-                                <a href='https://github.com/joel-kalema'><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
-                                <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
-                                <a href='https://angel.co/u/joel-kalema'><FaAngellist className='hover:text-[#ffd175]'/></a>
+                                <a href='https://twitter.com/JoelJklm'><CiTwitter className='hover:text-[#ffd175]'/></a>
+                                <a href='https://github.com/joel-kalema'><FiGithub className='ml-6 hover:text-[#ffd175]'/></a>
+                                <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='ml-6 hover:text-[#ffd175]'/></a>
+                                <a href='https://angel.co/u/joel-kalema'><FaAngellist className='ml-6 hover:text-[#ffd175]'/></a>
                             </div>
                         </div>
                     </div>
