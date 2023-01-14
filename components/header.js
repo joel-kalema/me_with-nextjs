@@ -16,7 +16,7 @@ export default function Header () {
             <h1 className="font-bold w-2/4">Logo</h1>
             <div>
                 <div onClick={navToggle} className="z-50 cursor-pointer hover:text-[#ffd175]">
-                    <h1 className='flex atems-center'><p className='text-xs mr-2'>MENU</p> <AiOutlineMenuFold /></h1>
+                    <h1 className='flex items-center text-xl'><p className=' mr-2'>MENU</p> <AiOutlineMenuFold /></h1>
                 </div>
                 <div className={active}>
                     <div className="flex  flex-col md:flex-row md:justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-52 md:px-16">
