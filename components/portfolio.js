@@ -30,17 +30,17 @@ export default function Portfolio (){
                 {projects.map((project) => (
                    <div className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="3000">
                         <img src={project.image} alt='images' />
-                        <div className="pt-2 pb-6 pl-6 pr-6">
+                        <div className="pt-2 pb-6 pl-6 pr-6 relative project">
                             <div className="flex text-xs">
                                 <div className="w-[1rem] h-[3rem] bg-[#ffd175] mt-[-2rem] exp backdrop-blur-md"></div>
                                 {project.technologies.map((lang) => (<p className="ml-2 text-[#c0c4d0a6] mt-2">{lang}</p>))}
                             </div>
                             <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
                             <p className="text-xs mt-2 italic">{project.fewDetail}</p>
-                            <div onClick={() => content(project)} className="text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-3/5 cursor-pointer">
+                            <div onClick={() => content(project)} className="z-30 text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-2/5 cursor-pointer">
                                 SEE MORE 
                                 <span className="text-2xl ml-2 flex">
-                                    <AiOutlineDash /><TbArrowNarrowRight/>
+                                    <TbArrowNarrowRight/>
                                 </span>
                             </div>
                         </div>
