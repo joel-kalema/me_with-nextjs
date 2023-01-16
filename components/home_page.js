@@ -15,7 +15,7 @@ export default function HomePage () {
     
 
     return (
-        <div className="flex flex-col px-2 md:px-20 lg:flex-row lg:px-40 pt-28">
+        <div className="flex flex-col px-2 md:px-20 lg:flex-row lg:px-40 pt-28" id='home'>
             <div className="my-16 lg:my-20 pl-10 w-full lg:w-2/4">
                 <span className=""></span>
                 <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>

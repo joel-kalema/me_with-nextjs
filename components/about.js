@@ -2,6 +2,8 @@ import Skills from './sckills'
 import { skills } from './data/expeertise'
 import { Link } from "next-scroll";
 import { useEffect } from "react";
+import { AiOutlineDoubleRight } from 'react-icons/ai';
+import { TbFileCertificate, TbPoint } from 'react-icons/tb';
 import AOS from "aos";
 
 export default function About (){
@@ -14,10 +16,10 @@ export default function About (){
         <div className='bg-[#161922] py-10 md:py-32 px-8 lg:px-60 md:px-24' id='about' data-aos="fade-up" data-aos-duration="1000">
             <div className="flex flex-col md:flex-row">
                 <div className="lg:w-2/4 w-full text-center md:text-start md:w-2/5 lg:2/4"  data-aos="fade-up" data-aos-duration="1000">
-                    <h1 className="text-[11rem] font-bold">3+<span className="text-[#ffd175] animate-ping">.</span></h1>
+                    <h1 className="text-[7rem] font-bold">3+<span className="text-[#ffd175] animate-ping">.</span></h1>
                     <div>
-                        <h2>Years</h2>
-                        <h2>Experience</h2> 
+                        <h2 className='flex items-center'><TbPoint className='text-[#ffd175]'/> Years</h2>
+                        <h2 className='flex items-center'><TbPoint className='text-[#ffd175]'/> Experience</h2> 
                     </div>
                 </div>
                 <div className="w-full mt-10 md:mt-0 md:w-3/5 lg:2/4 text-center md:text-start "  data-aos="fade-up" data-aos-duration="1000">
@@ -32,12 +34,12 @@ export default function About (){
                 </div>
             </div>
             <div className="w-full mt-24" data-aos="fade-up" data-aos-duration="1000">
-                <h1 className="text-[#ffd175] font-bold text-xl text-center">My skills</h1>
-                <div className="flex flex-wrap justify-between mt-6 px-2">
+                <h1 className="text-[#ffd175] font-bold text-xl text-center flex items-center"><AiOutlineDoubleRight className='mr-4 direction'/> My skills</h1>
+                <div className="flex flex-wrap justify-around mt-6 px-2">
                     {skills.map((item) => (
-                        <div className="w-2/4 md:w-1/5 mt-4 text-sm text-center">
-                            <h1 className="mb-1">{item.name}</h1>
-                            <h1  className="text-2xl font-bold text-[#c0c4d01e]">{item.percentage}</h1>
+                        <div className="w-2/4 md:w-1/5 mt-4 text-sm">
+                            <h1 className="mb-1 flex items-center jutify-center mx-auto"><TbFileCertificate className='text-[#ffd175] mr-2' />{item.name}</h1>
+                            <h1  className="text-xl border-l-[1px] border-[#ffd175] md:text-2xl font-bold text-[#c0c4d02a] ml-1 pl-4">{item.percentage}</h1>
                         </div>
                     ))}
                 </div>
