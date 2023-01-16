@@ -14,7 +14,7 @@ export default function Infos (){
 
     return(
         <div className='bg-[#161922] md:py-20 pt-80 pb-10'> 
-            <div className='w-full md:w-3/4 px-20 mb-10 lg:px-60' data-aos="fade-up" data-aos-duration="1000">
+            <div className='w-full md:w-3/5 px-20 mb-10 lg:px-60' data-aos="fade-up" data-aos-duration="1000">
                 <div className='contact_info text-[#ffd175] text-sm'>
                     <p className='flex items-center mb-2'><span className='mr-2'><HiOutlineLocationMarker /></span> Kigali</p>
                     <p className='flex items-center mb-2'><span className='mr-2'><CiMail /></span> joelkalema63@gmail.com</p>
