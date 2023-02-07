@@ -6,6 +6,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';
 import Link from "next/link";
 import getProject from "../../components/data/portfolio";
+import { motion, useScroll } from "framer-motion"
 
 export default function Project (){
     const router: NextRouter = useRouter();
@@ -26,7 +27,7 @@ export default function Project (){
                     <a href='https://angel.co/u/joel-kalema'><FaAngellist className='hover:text-[#ffd175]'/></a>
                 </div>
             </div>
-            <div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 drop-shadow-xl detail">
+            <motion.div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 drop-shadow-xl detail">
                 <img src={project?.image} alt='images' className="w-full lg:w-3/5 shadow-2xl"/>
                 <div className="mt-6 lg:mt-0 lg:ml-6 relative">
                     <h1 className="font-bold text-3xl mt-8 ml-6 text-[#ffd175]">{project?.title}</h1>
@@ -42,7 +43,7 @@ export default function Project (){
                         <a className="flex items-center cursor-pointer">See Live<MdOutlineDirections className="ml-1"/></a>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
         <div className='py-10 text-center'> 
             <p className="text-xs">© 2022 <a href="https://www.linkedin.com/in/joel-kalema/">Joel Kalema</a>, All right reserved</p>
