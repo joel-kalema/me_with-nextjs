@@ -6,6 +6,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { BiDownload } from 'react-icons/bi';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import { FaAngellist } from 'react-icons/fa';
+import { motion } from "framer-motion"
 
 export default function HomePage () {
     useEffect(() => {
@@ -41,9 +42,9 @@ export default function HomePage () {
                     <h2>experience</h2>
                     <h1 className="text-[#ffd175] font-bold">3+ Years</h1>
                 </div>
-                <p className="text-xs tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[6rem] right-[-13rem]">
+                <Link to='about' className="text-xs cursor-pointer tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[6rem] right-[-13rem]">
                     SCROLL DOWN
-                </p>
+                </Link>
             </div>
             <Link to='about' className='mx-auto lg:hidden'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]'/></Link>
         </div>
