@@ -2,9 +2,6 @@ import { projects } from "./data/portfolio";
 import { useState, useEffect } from 'react';
 import AOS from "aos";
 import { TbArrowNarrowRight } from 'react-icons/tb';
-import { BiArrowBack } from 'react-icons/bi';
-import {AiOutlineDash, AiFillGithub} from 'react-icons/ai';
-import {MdOutlineDirections} from 'react-icons/md';
 import { useRouter } from "next/router";
 
 export default function Portfolio (){
@@ -13,7 +10,7 @@ export default function Portfolio (){
     const router = useRouter();
     const content = (project) => {
         //setpopUp([project])
-    //etpopUptoggle(!popUptoggle)
+    //setpopUptoggle(!popUptoggle)
         router.push(`/projects/${project.title.split(' ').join('_')}`);
     }
 
