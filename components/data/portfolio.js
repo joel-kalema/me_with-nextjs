@@ -1,13 +1,13 @@
 export const projects = [
     {
         id: 1,
-        image: '/images/live.jpg',
-        title: 'Global-warming',
-        details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
-        fewDetail :'This is a responsive website...',
-        technologies: ['Html', 'Css', 'Js'],
-        live: 'https://joel-kalema.github.io/Global-warming/',
-        source: 'https://github.com/joel-kalema/Global-warming'
+        image: '/images/neutral.jpg',
+        title: 'Neutral',
+        details: 'Neutral is your expert design and development partner. We bring digital products from validation to success and teach you how because we care. It’s time to move beyond simply building features and start designing the right product with the right strategy.',
+        fewDetail :'neutral is your expert design...',
+        technologies: ['React','Rails', 'Scss'],
+        live: 'https://neutral.codes/',
+        state: 'privet'
     },
     {
         id: 2,
@@ -17,7 +17,8 @@ export const projects = [
         fewDetail :'A movie database website that...',
         technologies: ['Js', 'Htlm', 'Css'],
         live: 'https://tylher.github.io/Javascript-capstone/',
-        source: 'https://github.com/tylher/Javascript-capstone'
+        source: 'https://github.com/tylher/Javascript-capstone',
+        state: 'public'
     },
     {
         id: 3,
@@ -27,7 +28,8 @@ export const projects = [
         fewDetail :'The coronavirus COVID-19 is...',
         technologies: ['React', 'Scss'],
         live: 'https://dev--covid-datas.netlify.app/',
-        source: 'https://github.com/joel-kalema/COVID-19-Live-Now'
+        source: 'https://github.com/joel-kalema/COVID-19-Live-Now',
+        state: 'public'
     },
     {
         id: 4,
@@ -37,16 +39,19 @@ export const projects = [
         fewDetail :'The To_Do_List is a project...',
         technologies: ['Htlm', 'Css', 'js', 'Webpack'],
         live: 'https://joel-kalema.github.io/To-Do-list/',
-        source: 'https://github.com/joel-kalema/To-Do-list'
+        source: 'https://github.com/joel-kalema/To-Do-list',
+        state: 'public'
     },
     {
         id: 5,
         image: '/images/live.jpg',
-        title: 'this is the title',
-        details: 'this project was made to help people',
-        fewDetail :'this project was made to help...',
-        technologies: ['React', 'Scss'],
-        live: '#'
+        title: 'Global-warming',
+        details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
+        fewDetail :'This is a responsive website...',
+        technologies: ['Html', 'Css', 'Js'],
+        live: 'https://joel-kalema.github.io/Global-warming/',
+        source: 'https://github.com/joel-kalema/Global-warming',
+        state: 'public'
     },
     {
         id: 6,
@@ -55,7 +60,8 @@ export const projects = [
         details: 'this project was made to help people',
         fewDetail :'this project was made to help...',
         technologies: ['React', 'Scss'],
-        live: '#'
+        live: '#',
+        state: 'public'
     }
 ];
 
