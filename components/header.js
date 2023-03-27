@@ -13,7 +13,7 @@ export default function Header () {
   const navToggle = () => (active === 'nav_active' ? setActive('nav_menu') : setActive('nav_active'));
     return (
         <div className="flex justify-between py-8 px-10 md:py-8 md:px-20 fixed w-full z-50">
-            <h1 className="font-bold w-2/4">Logo</h1>
+            <h1 className="font-bold w-2/4">Joel</h1>
             <div>
                 <div onClick={navToggle} className="z-50 cursor-pointer hover:text-[#ffd175]">
                     <h1 className='flex items-center md:text-xl text-xs'><p className=' mr-1'>MENU</p> <AiOutlineMenuFold /></h1>
