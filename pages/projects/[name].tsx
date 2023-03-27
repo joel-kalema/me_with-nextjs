@@ -41,6 +41,7 @@ export default function Project (){
                     <div className="flex text-sm text-[#ffd175]">
                         <a href={project?.live} className="flex items-center cursor-pointer mr-4">See Live<MdOutlineDirections className="ml-1"/></a>
                         <a href={project?.source} className="flex items-center cursor-pointer">Source Code<AiFillGithub className="ml-1"/></a>
+                        <p className="text-xs pt-1">{"("+project?.state+")"}</p>
                     </div>
                 </div>
             </div>
