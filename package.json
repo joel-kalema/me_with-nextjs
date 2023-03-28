@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@ramonak/react-progress-bar": "^5.0.3",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
@@ -23,6 +24,7 @@
     "react": "18.2.0",
     "react-animated-progress-bar": "^1.1.1",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.8",
     "react-icons": "^4.6.0",
     "sass": "^1.56.1",
     "tailwind-scrollbar-hide": "^1.1.7",
