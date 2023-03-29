@@ -5,42 +5,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300;700&display=swap');
 
 body {
-    background-color: #191d28;
-    color: #c0c4d0;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .5px;
+  background-color: #191d28;
+  color: #c0c4d0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
+}
+
+button, [type='button'], [type='reset'], [type='submit'] {
+  -webkit-appearance: button;
+  background-color: #ffd175;
+  background-image: none;
 }
 
 button {
-    background-color: #ffd175;
-    border: #ffd175 1px solid;
-    color: #191d28;
-    padding: .3rem 2rem;
-    font-size: small;
-    transition: 0.6s;
+  background-color: #ffd175;
+  border: #ffd175 1px solid;
+  color: #191d28;
+  padding: .3rem 2rem;
+  font-size: small;
+  transition: 0.6s;
 }
 
 button:hover {
-    background-color: #ffd17500;
-    color: #ffd175;
-    transition: 0.3s;
+  background-color: #ffd17500;
+  color: #ffd175;
+  transition: 0.3s;
 }
 
 .name {
-    font-family: 'Allura', cursive;
+  font-family: 'Allura', cursive;
 }
 
 input,
 textarea {
-    outline: none;
-    width: 100%;
-    border: none;
-    font-size: .8rem;
-    padding: .5rem 0;
-    color: #808dad;
-    background-color: rgba(255, 255, 255, 0);
-    border-bottom: 1px #808dad solid;
-    transition: 1s;
+  outline: none;
+  width: 100%;
+  border: none;
+  font-size: .8rem;
+  padding: .5rem 0;
+  color: #808dad;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px #808dad solid;
+  transition: 1s;
 }
 
 input:hover,
@@ -51,6 +57,10 @@ textarea:hover {
 textarea {
   min-width: 5rem;
   max-height: 5rem;
+}
+
+form button {
+  background-color: #ffd175;
 }
 
 .nav_active {
@@ -119,17 +129,19 @@ textarea {
 .detail {
   background-color: #1b212f;
 }
- 
+
 @keyframes defile {
   from {
     padding-left: 1rem;
-    width: 10%; 
+    width: 10%;
   }
+
   to {
     padding-left: 0rem;
     width: 10%;
   }
 }
+
 .direction {
   animation: defile 1s infinite alternate;
 }
@@ -143,4 +155,25 @@ textarea {
   height: 10px;
   background: #ffd175;
   transform-origin: 0%;
+}
+
+.sucess-show {
+  animation: slide 1s ease forwards;
+  position: absolute;
+}
+
+.sucess-hid {
+  animation: hid 1s ease forwards;
+}
+
+@keyframes hid {
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slide {
+  0%{
+    transform: translateX(100%);
+  }
 }
