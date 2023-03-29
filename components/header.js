@@ -12,7 +12,7 @@ export default function Header () {
 
   const navToggle = () => (active === 'nav_active' ? setActive('nav_menu') : setActive('nav_active'));
     return (
-        <div className="flex justify-between py-8 px-10 md:py-8 md:px-20 fixed w-full z-50">
+        <div className="flex justify-between pt-6 pb-2 px-10 md:pt-6 md:pb-2 md:px-20 fixed w-full z-50 exp backdrop-blur-xl">
             <h1 className="font-bold w-2/4">Joel</h1>
             <div>
                 <div onClick={navToggle} className="z-50 cursor-pointer hover:text-[#ffd175]">
@@ -21,7 +21,7 @@ export default function Header () {
                 <div className={active}>
                     <div className="flex  flex-col md:flex-row md:justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-72 md:px-16">
                         <div className='flex'>
-                            <h1 onClick={navToggle} className='flex cursor-pointer md:text-xl text-xs items-center absolute hover:text-[#ffd175] right-10 md:right-20 top-8'>
+                            <h1 onClick={navToggle} className='flex cursor-pointer md:text-xl text-xs items-center absolute hover:text-[#ffd175] right-10 md:right-20 top-6'>
                                 <p className='mr-1'>MENU</p>
                                 <AiOutlineCloseCircle />
                             </h1>
@@ -30,10 +30,10 @@ export default function Header () {
                                 <div className='w-[1px] h-72 bg-[#ffd175]'></div>
                             </div>
                             <ul className='text-xl md:text-4xl font-semibold duration-300 ease-out mt-20 md:mt-0 list-container'>
-                                <li onClick={navToggle}><Link to='home' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={2000}>HOME</Link></li>
-                                <li onClick={navToggle}><Link to='about' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={2000}>ABOUT</Link></li>
-                                <li onClick={navToggle}><Link to='portfolio' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={2000}>PORTFOLIO</Link></li>
-                                <li onClick={navToggle}><Link to='contact' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={2000}>CONTACT</Link></li>
+                                <li onClick={navToggle}><Link to='home' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={1000}>HOME</Link></li>
+                                <li onClick={navToggle}><Link to='about' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={1000}>ABOUT</Link></li>
+                                <li onClick={navToggle}><Link to='portfolio' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={1000}>PORTFOLIO</Link></li>
+                                <li onClick={navToggle}><Link to='contact' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4 mb-1 md:mb-6' offset={100} duration={1000}>CONTACT</Link></li>
                                 <li onClick={navToggle}><Link to='#' className='list p-2 duration-500 ease-out cursor-pointer hover:text-[#ffd175] hover:ml-4'>BLOG</Link></li>
                             </ul>
                         </div>
