@@ -49,7 +49,7 @@ export default function About() {
                 </div>
                 <div className="w-full mt-10 md:mt-0 md:w-3/5 lg:2/4 text-center md:text-start " data-aos="fade-up" data-aos-duration="1000">
                     <h1 className="text-3xl text-[#ffd175]">About me</h1>
-                    <p className="my-8 text-[1rem]">I'm a software developer specialized
+                    <p className="my-8 text-[1rem]">I&apos;m a software developer specialized
                         in different technologies, Building web applications,
                         and beautiful websites for companies. Love
                         digging into hard problems, learning new languages and
@@ -62,7 +62,7 @@ export default function About() {
                 <h1 className="text-[#ffd175] font-bold text-xl text-center flex items-center"><AiOutlineDoubleRight className='mr-4 direction' /> My skills</h1>
                 <div className="flex flex-wrap justify-around mt-6 px-2">
                     {skills.map((item) => (
-                        <div className="w-2/4 md:w-1/5 mt-4 text-sm">
+                        <div className="w-2/4 md:w-1/5 mt-4 text-sm" key={item.name}>
                             <h1 className="mb-1 flex font-semibold items-center jutify-center mx-auto"><TbFileCertificate className='text-[#ffd175] mr-2' />{item.name}</h1>
                             <h1 className="text-sm border-l-[1px] border-[#ffd175] font-medium text-[#c0c4d0] ml-1 pl-4">{item.percentage}</h1>
                         </div>
