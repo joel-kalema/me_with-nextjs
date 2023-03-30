@@ -16,7 +16,7 @@ export default function Partenets (){
             <h1 className='text-5xl text-[#ffd175] text-center my-6'>Get in Touch!</h1>
             <div className="flex flex-col md:flex-row justify-between mt-4 md:mt-20">
                 <div className="w-full md:w-1/4 lg:w-2/4 text-[1rem] text-center md:text-start lg:text-xl" data-aos="fade-up" data-aos-duration="1000">
-                    <p>Let's make somthing new, different and more meanigful 
+                    <p>Let&apos;s make somthing new, different and more meanigful 
                         or make think more visual or Conceptual?
                         <span className="text-[#ffd175]"> Get in Touch!</span>
                     </p>
