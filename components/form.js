@@ -6,7 +6,7 @@ import AOS from "aos";
 export default function () {
 
     const [message, setMessage] = useState("");
-    const [count, setCount] = useState("sucess-show text-xs")
+    const [count, setCount] = useState("block absolute flex flex-col justify-center items-center exp backdrop-blur-md p-2 bg-[#fff1] rounded-lg")
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -34,8 +34,8 @@ export default function () {
 
     const hidden = () => {
         setTimeout(() => {
-            setCount('sucess-hid');
-        }, 5000);
+            setCount('hidden');
+        }, 3000);
         return count;
 
     }
@@ -58,11 +58,11 @@ export default function () {
                 message === 'OK' ?
                     hidden()
                     :
-                    "sucess-hid"
+                    "hidden"
             }
             >
-                <CiLocationArrow1 />
-                <p>sent successfully</p>
+                <CiLocationArrow1 className='text-xl text-[#ffd175]'/>
+                <p className='text-xs text-[#fff]'>sent successfully</p>
             </div>
         </div>
     )

@@ -23,7 +23,7 @@ export const projects = [
     {
         id: 3,
         image: '/images/covid.jpg',
-        title: 'this is the title',
+        title: 'COVID-19-Live',
         details: "The coronavirus COVID-19 is affecting 228 countries and territories. The day is reset after midnight GMT+0. The list of countries and their regional classification is based on the United Nations Geoscheme. Sources are provided under Latest News. Learn more about Worldometer's COVID-19 data",
         fewDetail :'The coronavirus COVID-19 is...',
         technologies: ['React', 'Scss'],
@@ -55,12 +55,13 @@ export const projects = [
     },
     {
         id: 6,
-        image: '/images/live.jpg',
-        title: 'this is the title',
-        details: 'this project was made to help people',
-        fewDetail :'this project was made to help...',
-        technologies: ['React', 'Scss'],
+        image: '/images/recipe.jpg',
+        title: 'Recipe App',
+        details: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have . Also, allow you to make them public so anyone can access them.',
+        fewDetail :'The Recipe app keeps track of...',
+        technologies: ['Rails', 'PostgreSQL'],
         live: '#',
+        source: 'https://github.com/joel-kalema/Global-warming',
         state: 'public'
     }
 ];

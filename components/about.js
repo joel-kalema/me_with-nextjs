@@ -31,15 +31,15 @@ export default function About() {
                             <h1 className="text-sm font-bold mb-4">Organizations</h1>
                             <div className='flex justify-between'>
                                 <div className='flex items-center flex-col'>
-                                    <div className='w-2/5 mb-2'>
+                                    <a href='https://www.microverse.org/' className='w-2/5 mb-2'>
                                         <img src='/images/microverse.png' alt='microverse' className='' />
-                                    </div>
+                                    </a>
                                     <p className='text-xs'>Microvese</p>
                                 </div>
                                 <div className='flex items-center flex-col'>
-                                    <div className='w-3/5 mb-2'>
+                                    <a href='https://neutral.codes/' className='w-3/5 mb-2'>
                                         <img src='/images/neutro.png' alt='neutral' className='w-[80%]' />
-                                    </div>
+                                    </a>
                                     <p className='text-xs'>Neutral</p>
                                 </div>
                             </div>
