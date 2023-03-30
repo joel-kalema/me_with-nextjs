@@ -25,12 +25,12 @@ export default function Portfolio (){
             <h2 className="text-center mb-6">Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map((project) => (
-                   <div className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="2000">
+                   <div key={project.id} className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="2000">
                         <img src={project.image} alt='images' />
                         <div className="pt-2 pb-6 pl-6 pr-6 relative project">
                             <div className="flex text-xs">
                                 <div className="w-[1rem] h-[3rem] bg-[#ffd175] mt-[-2rem] exp backdrop-blur-md"></div>
-                                {project.technologies.map((lang) => (<p className="ml-2 text-[#c0c4d0a6] mt-2">{lang}</p>))}
+                                {project.technologies.map((lang) => (<p key={lang} className="ml-2 text-[#c0c4d0a6] mt-2">{lang}</p>))}
                             </div>
                             <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
                             <p className="text-xs mt-2 italic">{project.fewDetail}</p>
