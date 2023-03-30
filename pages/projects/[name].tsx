@@ -6,6 +6,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';
 import Link from "next/link";
 import getProject from "../../components/data/portfolio";
+import { motion, useScroll } from "framer-motion"
 
 export default function Project (){
     const router: NextRouter = useRouter();
@@ -17,7 +18,7 @@ export default function Project (){
             <div className="flex justify-center items-center h-screen relative">
             <div>
                 <Link href='/#portfolio' className="fixed flex items-center top-10 z-50 left-10 hover:text-[#ffd175]">
-                    <MdOutlineBackspace className='mr-2'/>PORTFOLIO
+                    <MdOutlineBackspace className='mr-2'/>
                 </Link>
                 <div className='flex  w-1/8 lg:ml-[-4rem] justify-between absolute top-10 right-20'>
                     <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
@@ -38,14 +39,15 @@ export default function Project (){
                          >{lang}</p>))}
                     </div>
                     <div className="flex text-sm text-[#ffd175]">
-                        <a className="flex items-center cursor-pointer mr-4">Source Code<AiFillGithub className="ml-1"/></a>
-                        <a className="flex items-center cursor-pointer">See Live<MdOutlineDirections className="ml-1"/></a>
+                        <a href={project?.live} className="flex items-center cursor-pointer mr-4">See Live<MdOutlineDirections className="ml-1"/></a>
+                        <a href={project?.source} className="flex items-center cursor-pointer">Source Code<AiFillGithub className="ml-1"/></a>
+                        <p className="text-xs pt-1">{"("+project?.state+")"}</p>
                     </div>
                 </div>
             </div>
         </div>
         <div className='py-10 text-center'> 
-            <p className="text-xs">© 2022 <a href="https://www.linkedin.com/in/joel-kalema/">Joel Kalema</a>, All right reserved</p>
+            <p className="text-xs">© 2019 <a href="https://www.linkedin.com/in/joel-kalema/">Joel Kalema</a>, All right reserved</p>
         </div>
         </div>
     );

@@ -6,24 +6,12 @@ import { SiRubyonrails } from 'react-icons/si';
 
 export const langages = [
     {
-        langages: 'Html',
-        icons: <TbBrandHtml5 />
-    },
-    {
-        langages: 'Sass',
-        icons: <IoLogoSass />
-    },
-    {
-        langages: 'Tailwind',
-        icons: <TbBrandTailwind />
+        langages: 'React',
+        icons: <DiReact />
     },
     {
         langages: 'Js',
         icons: <TbBrandJavascript />
-    },
-    {
-        langages: 'React',
-        icons: <DiReact />
     },
     {
         langages: 'Nextjs',
@@ -36,6 +24,18 @@ export const langages = [
     {
         langages: 'Ruby on Rails',
         icons: <SiRubyonrails />
+    },
+    {
+        langages: 'Html',
+        icons: <TbBrandHtml5 />
+    },
+    {
+        langages: 'Sass',
+        icons: <IoLogoSass />
+    },
+    {
+        langages: 'Tailwind',
+        icons: <TbBrandTailwind />
     },
     {
         langages: 'Postgresql',
