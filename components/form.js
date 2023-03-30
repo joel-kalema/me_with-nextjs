@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { CiLocationArrow1 } from 'react-icons/ci';
 import AOS from "aos";
 
-export default function () {
+export default function Form () {
 
     const [message, setMessage] = useState("");
     const [count, setCount] = useState("block absolute flex flex-col justify-center items-center exp backdrop-blur-md p-2 bg-[#fff1] rounded-lg")
