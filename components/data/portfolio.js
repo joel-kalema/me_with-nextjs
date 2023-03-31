@@ -60,8 +60,8 @@ export const projects = [
         details: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have . Also, allow you to make them public so anyone can access them.',
         fewDetail :'The Recipe app keeps track of...',
         technologies: ['Rails', 'PostgreSQL'],
-        live: '#',
-        source: 'https://github.com/joel-kalema/Global-warming',
+        live: 'https://github.com/joel-kalema/Recipe_app',
+        source: 'https://github.com/joel-kalema/Recipe_app',
         state: 'public'
     }
 ];
