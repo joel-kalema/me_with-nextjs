@@ -16,7 +16,7 @@ export default function HomePage () {
     
 
     return (
-        <div className="flex flex-col px-2 md:px-20 lg:flex-row lg:px-40 pt-28" id='home'>
+        <div className="flex flex-col pb-32 md:pb-0 px-2 md:px-20 lg:flex-row lg:px-40 pt-28" id='home'>
             <div className="my-14 lg:my-20 pl-10 w-full lg:w-2/4">
                 <span className=""></span>
                 <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
@@ -46,7 +46,7 @@ export default function HomePage () {
                     SCROLL DOWN
                 </Link>
             </div>
-            <Link to='about' className='mx-auto lg:hidden'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]'/></Link>
+            <Link to='about' className='mx-auto lg:hidden mt-20'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]'/></Link>
         </div>
     )
 }
