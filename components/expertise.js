@@ -10,7 +10,7 @@ export default function Area (){
     }, []);
 
     return (
-        <div className='px-8 md:20 lg:px-60 py-20 text-center relative' data-aos="fade-up" data-aos-duration="1000">
+        <div className='px-8 md:20 lg:px-60 xl:px-64 py-20 text-center relative' data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mt-40'>Expertise Area</h1>
             <p className='text-[1rem] text-center w-full md:w-2/4 mx-auto my-6'>
                 I&apos;m Building scalable web applications, beautiful websites for companies, and  video animations.
