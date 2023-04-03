@@ -15,7 +15,7 @@ export const projects = [
         title: 'SHOWNET',
         details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
         fewDetail :'A movie database website that...',
-        technologies: ['Js', 'Htlm', 'Css'],
+        technologies: ['HTML', 'CSS', 'Js'],
         live: 'https://tylher.github.io/Javascript-capstone/',
         source: 'https://github.com/tylher/Javascript-capstone',
         state: 'public'
@@ -37,7 +37,7 @@ export const projects = [
         title: 'To-Do-list',
         details: 'The To_Do_List is a project designed to help you get organized, achieve your goals and never forget a thing. By keeping record of your plans and allowing you to edit them the way you want.',
         fewDetail :'The To_Do_List is a project...',
-        technologies: ['Htlm', 'Css', 'js', 'Webpack'],
+        technologies: ['HTML', 'CSS', 'Js', 'Webpack'],
         live: 'https://joel-kalema.github.io/To-Do-list/',
         source: 'https://github.com/joel-kalema/To-Do-list',
         state: 'public'
@@ -48,7 +48,7 @@ export const projects = [
         title: 'Global-warming',
         details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
         fewDetail :'This is a responsive website...',
-        technologies: ['Html', 'Css', 'Js'],
+        technologies: ['HTML', 'CSS', 'JavaScript'],
         live: 'https://joel-kalema.github.io/Global-warming/',
         source: 'https://github.com/joel-kalema/Global-warming',
         state: 'public'
