@@ -27,7 +27,7 @@ export default function HomePage () {
                     you need coded, don&apos;t hestiate to contact me.</p>
                 <div className='flex my-8'>
                     <button type='button' className="bg-[#ffd175] mr-6"><Link to='contact' offset={100} duration={2000}>Hire me</Link></button>
-                    <a href="CV_JOEL KALEMA.pdf" download="JOEL.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
+                    <a href="JOEL.pdf" download="JOEL.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
                 </div>
                 <div className='flex  w-3/6 lg:ml-[-4rem] mt-10 justify-between'>
                     <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
