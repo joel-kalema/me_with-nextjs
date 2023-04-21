@@ -14,7 +14,7 @@ export default function Home() {
     const { scrollYProgress } = useScroll();
     return (
         <div className={`${styles.container}`}>
-            <motion.div style={{ scaleX: scrollYProgress }} className=".progress-bar" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}/>  
+            <motion.div style={{ scaleX: scrollYProgress }} className=".progress-bar" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}/>
             <Header /> 
             <HomePage />
             <About />
