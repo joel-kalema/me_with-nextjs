@@ -33,13 +33,13 @@ export const projects = [
     },
     {
         id: 4,
-        image: '/images/todo.jpg',
-        title: 'To-Do-list',
-        details: 'The To_Do_List is a project designed to help you get organized, achieve your goals and never forget a thing. By keeping record of your plans and allowing you to edit them the way you want.',
-        fewDetail :'The To_Do_List is a project...',
-        technologies: ['HTML', 'CSS', 'Js', 'Webpack'],
-        live: 'https://joel-kalema.github.io/To-Do-list/',
-        source: 'https://github.com/joel-kalema/To-Do-list',
+        image: '/images/math.jpg',
+        title: 'Math Magicians',
+        details: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+        fewDetail :'Math magicians is a website...',
+        technologies: ['React', 'CSS'],
+        live: 'https://mathmagiciansjk.netlify.app/',
+        source: 'https://github.com/joel-kalema/Math-Magicians',
         state: 'public'
     },
     {
