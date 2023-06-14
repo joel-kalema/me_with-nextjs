@@ -20,7 +20,7 @@ export default function Portfolio (){
     }, []);
 
     return(
-        <div className="bg-[#161922] py-20 px-10 md:px-20 lg:px-60 " id="portfolio" data-aos="fade-up" data-aos-duration="1000">
+        <div className="bg-[#161922] py-20 px-10 md:px-20 lg:px-44" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
             <h2 className="text-center mb-6">Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
@@ -34,7 +34,7 @@ export default function Portfolio (){
                             </div>
                             <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
                             <p className="text-xs mt-2 italic">{project.fewDetail}</p>
-                            <div onClick={() => content(project)} className="z-30 text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-2/5 cursor-pointer">
+                            <div onClick={() => content(project)} className="z-30 text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-2/5 lg:w-2/4 cursor-pointer">
                                 SEE MORE 
                                 <span className="text-2xl ml-2 flex">
                                     <TbArrowNarrowRight/>
