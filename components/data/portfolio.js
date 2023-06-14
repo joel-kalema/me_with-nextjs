@@ -5,12 +5,23 @@ export const projects = [
         title: 'Neutral',
         details: "Neutral is a digital agency platform that provides software development services to businesses, focusing on building and maintaining mobile and web applications. The platform has collaborated with 10+ commerce in the Democratic Republic of Congo (DRC).",
         fewDetail :'Neutral is a digital agency...',
-        technologies: ['React','Rails', 'Scss'],
+        technologies: ['React','Rails', 'Scss', 'Tailwind'],
         live: 'https://neutral.codes/',
         state: 'privet'
     },
     {
         id: 2,
+        image: '/images/cars.jpg',
+        title: 'LUXURY CARS',
+        details: 'This project will provide an opportunity to develop skills in web development, database design, and user experience design.',
+        fewDetail :'This project will provide an...',
+        technologies: ['Nextjs', 'Tailwind', 'API'],
+        live: 'https://luxury-cars-mu.vercel.app/',
+        source: 'https://github.com/joel-kalema/luxury-cars',
+        state: 'public'
+    },
+    {
+        id: 3,
         image: '/images/livemovi1.jpg',
         title: 'SHOWNET',
         details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
@@ -21,7 +32,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 3,
+        id: 4,
         image: '/images/covid.jpg',
         title: 'COVID-19-Live',
         details: "COVID-19-Live-Now is a mobile web app that can show the list of countries and their live COVID-19 data.",
@@ -32,7 +43,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 4,
+        id: 5,
         image: '/images/math.jpg',
         title: 'Math Magicians',
         details: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
@@ -42,17 +53,17 @@ export const projects = [
         source: 'https://github.com/joel-kalema/Math-Magicians',
         state: 'public'
     },
-    {
-        id: 5,
-        image: '/images/live.jpg',
-        title: 'Global-warming',
-        details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
-        fewDetail :'This is a responsive website...',
-        technologies: ['HTML', 'CSS', 'JavaScript'],
-        live: 'https://joel-kalema.github.io/Global-warming/',
-        source: 'https://github.com/joel-kalema/Global-warming',
-        state: 'public'
-    },
+    // {
+    //     id: 6,
+    //     image: '/images/live.jpg',
+    //     title: 'Global-warming',
+    //     details: 'This is a responsive website that navigates from the home page to the about page, following mobile first rule.',
+    //     fewDetail :'This is a responsive website...',
+    //     technologies: ['HTML', 'CSS', 'JavaScript'],
+    //     live: 'https://joel-kalema.github.io/Global-warming/',
+    //     source: 'https://github.com/joel-kalema/Global-warming',
+    //     state: 'public'
+    // },
     {
         id: 6,
         image: '/images/recipe.jpg',
