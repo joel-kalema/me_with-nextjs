@@ -11,7 +11,7 @@ export default function Partenets (){
     }, []);
 
     return(
-        <div id='contact' className="flex justify-center flex-col items-center px-10 md:px-20 lg:px-60 pt-20" data-aos="fade-up" data-aos-duration="1000">
+        <div id='contact' className="flex justify-center flex-col items-center px-10 md:px-20 xl:px-96 lg:px-60 pt-20" data-aos="fade-up" data-aos-duration="1000">
             <h2>Have any Project in Mind?</h2>
             <h1 className='text-5xl text-[#ffd175] text-center my-6'>Get in Touch!</h1>
             <div className="flex flex-col md:flex-row justify-between mt-4 md:mt-20">
