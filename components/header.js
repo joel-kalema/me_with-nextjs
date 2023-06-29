@@ -19,7 +19,7 @@ export default function Header () {
                     <h1 className='flex items-center md:text-xl text-xs'><p className=' mr-1'>MENU</p> <AiOutlineMenuFold /></h1>
                 </div>
                 <div className={active}>
-                    <div className="flex  flex-col md:flex-row md:justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-72 md:px-16">
+                    <div className="flex  flex-col md:flex-row md:justify-between h-screen fixed bg-[#191d28] w-full z-10 left-0 top-0 py-10 md:py-32 px-8 lg:px-72 md:px-16 xl:px-96 xl:pt-60">
                         <div className='flex'>
                             <h1 onClick={navToggle} className='flex cursor-pointer md:text-xl text-xs items-center absolute hover:text-[#ffd175] right-10 md:right-20 top-6'>
                                 <p className='mr-1'>MENU</p>
