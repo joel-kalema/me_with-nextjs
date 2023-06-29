@@ -20,7 +20,7 @@ export default function Portfolio (){
     }, []);
 
     return(
-        <div className="bg-[#161922] py-20 px-10 md:px-20 lg:px-44" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
+        <div className="bg-[#161922] py-20 px-10 md:px-20 xl:px-80 xl:pb-60 xl:pt-40 lg:px-44" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
             <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
             <h2 className="text-center mb-6">Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
