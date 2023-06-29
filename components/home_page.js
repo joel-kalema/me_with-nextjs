@@ -17,7 +17,7 @@ export default function HomePage () {
 
     return (
         <div className="flex flex-col pb-32 md:pb-0 px-2 md:px-20 lg:flex-row lg:px-40 pt-28" id='home'>
-            <div className="my-14 lg:my-20 pl-10 w-full lg:w-2/4">
+            <div className="my-14 lg:my-20 pl-10 w-full lg:w-2/4 xl:pl-60">
                 <span className=""></span>
                 <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
                 <h1 className="text-3xl md:text-5xl font-bold">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>
@@ -29,7 +29,7 @@ export default function HomePage () {
                     <button type='button' className="bg-[#ffd175] mr-6"><Link to='contact' offset={100} duration={2000}>Hire me</Link></button>
                     <a href="JOEL.pdf" download="JOEL.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
                 </div>
-                <div className='flex  w-3/6 lg:ml-[-4rem] mt-10 justify-between'>
+                <div className='flex  w-3/6 lg:ml-[-4rem] mt-10 justify-between xl:mt-80 xl:text-2xl'>
                     <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
                     <a href='https://github.com/joel-kalema'><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
                     <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
