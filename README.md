@@ -26,11 +26,11 @@ You also need to enable `localhost:3000` in your CORS Origins settings!
 Note: If you are running on Windows run install --noptional flag (i.e. `npm install --no-optional`) which will skip installing fsevents.
 
 
-If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm start`:
+If you wanted to run this site in production, you should install modules then build the site with `npm run build` and run it with `npm run dev`:
 
     npm install
     npm run build
-    npm start
+    npm run dev
 
 You should run `npm run build` again any time you make changes to the site.
 
