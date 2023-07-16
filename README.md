@@ -2,7 +2,7 @@
 # Portfolio
 ![me](https://user-images.githubusercontent.com/57408419/228860378-daeaa6bd-13e5-44ae-8342-ab32e6b00765.jpg)
 
-> My personal portfolio is a responsive web app that I used to present my skills, projects and other details about myself. It also contains a form that can be used to reach out to me directly.
+> My personal portfolio is a responsive web app that I used to present my skills, projects, and other details about myself. It also contains a form that can be used to reach out to me directly.
 
 ## Built With
 
