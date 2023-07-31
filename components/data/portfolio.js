@@ -11,6 +11,16 @@ export const projects = [
     },
     {
         id: 2,
+        image: '/images/comigra.jpg',
+        title: 'COMIGRA',
+        details: 'A mining coop in DRC, resulting in a 50% increase in membership retention and a 30% increase in new membership applications.',
+        fewDetail :'A mining coop in DRC, resulting...',
+        technologies: ['React', 'Sass'],
+        live: 'https://comigra.netlify.app/',
+        state: 'privet'
+    },
+    {
+        id: 3,
         image: '/images/cars.jpg',
         title: 'LUXURY CARS',
         details: 'This web app allows users to get a list of cars, car details, and helps people who are passionate about all things high-end and the goal is to provide the latest news, compare cars side by side, and information on the most luxurious vehicles on the market.',
@@ -21,7 +31,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 3,
+        id: 4,
         image: '/images/livemovi1.jpg',
         title: 'SHOWNET',
         details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
@@ -32,7 +42,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 4,
+        id: 5,
         image: '/images/covid.jpg',
         title: 'COVID-19-Live',
         details: "COVID-19-Live-Now is a mobile web app that can show the list of countries and their live COVID-19 data.",
@@ -43,7 +53,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 5,
+        id: 6,
         image: '/images/math.jpg',
         title: 'Math Magicians',
         details: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
@@ -64,17 +74,17 @@ export const projects = [
     //     source: 'https://github.com/joel-kalema/Global-warming',
     //     state: 'public'
     // },
-    {
-        id: 6,
-        image: '/images/recipe.jpg',
-        title: 'Recipe App',
-        details: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have . Also, allow you to make them public so anyone can access them.',
-        fewDetail :'The Recipe app keeps track of...',
-        technologies: ['Rails', 'PostgreSQL'],
-        live: 'https://github.com/joel-kalema/Recipe_app',
-        source: 'https://github.com/joel-kalema/Recipe_app',
-        state: 'public'
-    }
+    // {
+    //     id: 6,
+    //     image: '/images/recipe.jpg',
+    //     title: 'Recipe App',
+    //     details: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have . Also, allow you to make them public so anyone can access them.',
+    //     fewDetail :'The Recipe app keeps track of...',
+    //     technologies: ['Rails', 'PostgreSQL'],
+    //     live: 'https://github.com/joel-kalema/Recipe_app',
+    //     source: 'https://github.com/joel-kalema/Recipe_app',
+    //     state: 'public'
+    // }
 ];
 
 const getProject = (name) => {
