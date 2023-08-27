@@ -21,7 +21,7 @@ export default function HomePage () {
                 <span className=""></span>
                 <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
                 <h1 className="text-3xl md:text-5xl font-bold">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>
-                <h3 className="my-3">software developper</h3>
+                <h3 className="my-3">software developer</h3>
                 <p className="w-4/5 text-[1rem]"> I can help you build a product, feature or website Look through some
                     of my work and experience! If you like what you see and have a project
                     you need coded, don&apos;t hestiate to contact me.</p>
