@@ -7,7 +7,7 @@ export const projects = [
         fewDetail :'Neutral is a digital agency...',
         technologies: ['React','Rails', 'Scss', 'Tailwind'],
         live: 'https://neutral.codes/',
-        state: 'privet'
+        state: 'private'
     },
     {
         id: 2,
@@ -17,10 +17,20 @@ export const projects = [
         fewDetail :'A mining coop in DRC, resulting...',
         technologies: ['React', 'Sass'],
         live: 'https://comigra.netlify.app/',
-        state: 'privet'
+        state: 'private'
     },
     {
         id: 3,
+        image: '/images/HAGSYO.jpg',
+        title: 'HAGSYO',
+        details: "Hagsyo Kingdom is dedicated to providing top-notch services to its customers, while also working to reduce unemployment in the Congo. With a strong focus on customer satisfaction and community development, the team at Hagsyo Kingdom is committed to helping businesses thrive and individuals succeed.",
+        fewDetail :'Hagsyo Kingdom is dedicated to providing...',
+        technologies: ['Nextjs', 'Tailwind', 'Rails'],
+        live: 'https://hagsyo-kingdom-git-new-post-page-cyw-01.vercel.app/',
+        state: 'private'
+    },
+    {
+        id: 4,
         image: '/images/cars.jpg',
         title: 'LUXURY CARS',
         details: 'This web app allows users to get a list of cars, car details, and helps people who are passionate about all things high-end and the goal is to provide the latest news, compare cars side by side, and information on the most luxurious vehicles on the market.',
@@ -31,7 +41,7 @@ export const projects = [
         state: 'public'
     },
     {
-        id: 4,
+        id: 5,
         image: '/images/livemovi1.jpg',
         title: 'SHOWNET',
         details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
@@ -41,17 +51,17 @@ export const projects = [
         source: 'https://github.com/tylher/Javascript-capstone',
         state: 'public'
     },
-    {
-        id: 5,
-        image: '/images/covid.jpg',
-        title: 'COVID-19-Live',
-        details: "COVID-19-Live-Now is a mobile web app that can show the list of countries and their live COVID-19 data.",
-        fewDetail :'COVID-19-Live-Now is a...',
-        technologies: ['React', 'Scss'],
-        live: 'https://dev--covid-datas.netlify.app/',
-        source: 'https://github.com/joel-kalema/COVID-19-Live-Now',
-        state: 'public'
-    },
+    // {
+    //     id: 6,
+    //     image: '/images/covid.jpg',
+    //     title: 'COVID-19-Live',
+    //     details: "COVID-19-Live-Now is a mobile web app that can show the list of countries and their live COVID-19 data.",
+    //     fewDetail :'COVID-19-Live-Now is a...',
+    //     technologies: ['React', 'Scss'],
+    //     live: 'https://dev--covid-datas.netlify.app/',
+    //     source: 'https://github.com/joel-kalema/COVID-19-Live-Now',
+    //     state: 'public'
+    // },
     {
         id: 6,
         image: '/images/math.jpg',
