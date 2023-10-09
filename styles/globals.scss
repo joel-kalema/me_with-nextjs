@@ -94,6 +94,16 @@ form button {
   width: 100%;
 }
 
+.project {
+  background: rgb(27,33,47);
+  background: linear-gradient(0deg, rgba(27,33,47,1) 0%, rgba(27, 33, 47, 0) 100%);
+}
+
+.bg-blue-gray-100 {
+  --tw-bg-opacity: .2;
+  background-color: rgb(207 216 220 / var(--tw-bg-opacity));
+}
+
 .project::before {
   content: '';
   position: absolute;
