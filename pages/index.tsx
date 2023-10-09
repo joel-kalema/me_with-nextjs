@@ -7,7 +7,6 @@ import Portfolio from '../components/portfolio';
 import Partenets from '../components/partenets';
 import Infos from '../components/infos'
 import Footer from '../components/footer'
-// import Recomandation from '../components/recommendations'
 import { motion, useScroll } from "framer-motion"
 
 
@@ -20,7 +19,6 @@ export default function Home() {
             <HomePage />
             <About />
             <Area />
-            {/* <Recomandation /> */}
             <Portfolio />
             <Partenets />
             <Infos />
