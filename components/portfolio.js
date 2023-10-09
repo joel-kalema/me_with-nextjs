@@ -25,7 +25,7 @@ export default function Portfolio (){
             <h2 className="text-center mb-6">Some of my best works</h2>
             <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
                 {projects.map((project) => (
-                   <div key={project.id} className="w-full md:w-[45%] lg:w-[32%] mt-6 bg-[#1b212f] hover:shadow-xl" data-aos="fade-up" data-aos-duration="2000">
+                   <div key={project.id} className="w-full md:w-[45%] lg:w-[48%] mt-6 bg-[#1b212f] hover:shadow-xl relative" data-aos="fade-up" data-aos-duration="2000">
                         <img src={project.image} alt='images' />
                         <div className="pt-2 pb-6 pl-6 pr-6 relative project">
                             <div className="flex text-xs">
