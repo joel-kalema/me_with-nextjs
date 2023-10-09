@@ -1,7 +1,9 @@
-import { TbBrandHtml5, TbBrandNextjs, TbBrandJavascript, TbBrandTailwind, TbBrandFirebase } from 'react-icons/tb';
+import { TbBrandHtml5, TbBrandNextjs, TbBrandJavascript, TbBrandTailwind, TbBrandFirebase, TbBrandCss3, TbBrandAngular } from 'react-icons/tb';
 import { IoLogoSass } from 'react-icons/io';
 import { DiPostgresql, DiReact, DiRubyRough } from 'react-icons/di';
-import { SiRubyonrails } from 'react-icons/si';
+import { SiRubyonrails, SiNodedotjs } from 'react-icons/si';
+import { FaVuejs } from "react-icons/fa"
+import { SiTypescript } from "react-icons/si"
 
 
 export const langages = [
@@ -18,6 +20,22 @@ export const langages = [
         icons: <TbBrandNextjs />
     },
     {
+        langages: 'Vuejs',
+        icons: <FaVuejs />
+    },
+    {
+        langages: 'Angular',
+        icons: <TbBrandAngular />
+    },
+    {
+        langages: 'Typescript',
+        icons: <SiTypescript />
+    },
+    {
+        langages: 'Nodejs',
+        icons: <SiNodedotjs />
+    },
+    {
         langages: 'Ruby',
         icons: <DiRubyRough />
     },
@@ -28,6 +46,10 @@ export const langages = [
     {
         langages: 'Html',
         icons: <TbBrandHtml5 />
+    },
+    {
+        langages: 'Css',
+        icons: <TbBrandCss3 />
     },
     {
         langages: 'Sass',
