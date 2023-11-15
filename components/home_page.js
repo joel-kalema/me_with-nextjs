@@ -45,7 +45,7 @@ export default function HomePage() {
                     <h1 className="text-[#ffd175] font-bold">3+ Years</h1>
                 </div> */}
             </div>
-            <Link to='about' className="text-xs cursor-pointer tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[16rem] right-[5rem]">
+            <Link to='about' className="text-xs hidden lg:block cursor-pointer tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[16rem] right-[5rem]">
                 SCROLL DOWN
             </Link>
             <Link to='about' className='mx-auto lg:hidden mt-20'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]' /></Link>
