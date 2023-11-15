@@ -21,10 +21,10 @@ export default function Project() {
                         <MdOutlineBackspace className='mr-2' />
                     </Link>
                     <div className='flex  w-1/8 lg:ml-[-4rem] justify-between absolute top-10 right-20'>
-                        <a href='https://twitter.com/JoelJklm' target="_blank"><CiTwitter className='mr-4 hover:text-[#ffd175]' /></a>
-                        <a href='https://github.com/joel-kalema' target="_blank"><FiGithub className='mr-4 hover:text-[#ffd175]' /></a>
-                        <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank"><FiLinkedin className='mr-4 hover:text-[#ffd175]' /></a>
-                        <a href='https://angel.co/u/joel-kalema' target="_blank"><FaAngellist className='hover:text-[#ffd175]' /></a>
+                        <a href='https://twitter.com/JoelJklm' target="_blank" rel="noreferrer"><CiTwitter className='mr-4 hover:text-[#ffd175]' /></a>
+                        <a href='https://github.com/joel-kalema' target="_blank" rel="noreferrer"><FiGithub className='mr-4 hover:text-[#ffd175]' /></a>
+                        <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank" rel="noreferrer"><FiLinkedin className='mr-4 hover:text-[#ffd175]' /></a>
+                        <a href='https://angel.co/u/joel-kalema' target="_blank" rel="noreferrer"><FaAngellist className='hover:text-[#ffd175]' /></a>
                     </div>
                 </div>
                 <div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 drop-shadow-xl detail">
@@ -41,15 +41,15 @@ export default function Project() {
                             >{lang}</p>))}
                         </div>
                         <div className="flex text-sm text-[#ffd175]">
-                            <a href={project?.live} className="flex items-center cursor-pointer mr-4" target="_blank">See Live<MdOutlineDirections className="ml-1" /></a>
-                            <a href={project?.source} className="flex items-center cursor-pointer" target="_blank">Source Code<AiFillGithub className="ml-1" /></a>
+                            <a href={project?.live} className="flex items-center cursor-pointer mr-4" target="_blank" rel="noopener noreferrer">See Live<MdOutlineDirections className="ml-1" /></a>
+                            <a href={project?.source} className="flex items-center cursor-pointer" target="_blank" rel="noopener noreferrer">Source Code<AiFillGithub className="ml-1" /></a>
                             <p className="text-xs pt-1">{"(" + project?.state + ")"}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='py-10 text-center'>
-                <p className="text-xs">© 2019 <a href="https://www.linkedin.com/in/joel-kalema/" target="_blank">Joel Kalema</a>, All right reserved</p>
+                <p className="text-xs">© 2019 <a href="https://www.linkedin.com/in/joel-kalema/" target="_blank" rel="noreferrer">Joel Kalema</a>, All right reserved</p>
             </div>
         </div>
     );

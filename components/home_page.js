@@ -20,7 +20,6 @@ export default function HomePage() {
     return (
         <div className="flex flex-col pb-32 md:pb-0 px-2 md:px-10 lg:flex-row lg:px-20 pt-28 relative" id='home'>
             <div className="my-14 lg:my-20 pl-10 w-full lg:w-2/4 xl:pl-28">
-                <span className=""></span>
                 <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
                 <h1 className="text-3xl md:text-5xl font-bold">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>
                 <h3 className="my-3">software developer</h3>
@@ -32,10 +31,10 @@ export default function HomePage() {
                     <a href="JOEL.pdf" download="JOEL.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
                 </div>
                 <div className='flex  w-3/6 mt-10 justify-between xl:text-2xl'>
-                    <a href='https://twitter.com/JoelJklm' target="_blank"><CiTwitter className='mr-4 hover:text-[#ffd175]' /></a>
-                    <a href='https://github.com/joel-kalema' target="_blank"><FiGithub className='mr-4 hover:text-[#ffd175]' /></a>
-                    <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank"><FiLinkedin className='mr-4 hover:text-[#ffd175]' /></a>
-                    <a href='https://angel.co/u/joel-kalema' target="_blank"><FaAngellist className='hover:text-[#ffd175]' /></a>
+                    <a href='https://twitter.com/JoelJklm' target="_blank" rel="noopener noreferrer"><CiTwitter className='mr-4 hover:text-[#ffd175]' /></a>
+                    <a href='https://github.com/joel-kalema' target="_blank" rel="noopener noreferrer"><FiGithub className='mr-4 hover:text-[#ffd175]' /></a>
+                    <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank" rel="noopener noreferrer"><FiLinkedin className='mr-4 hover:text-[#ffd175]' /></a>
+                    <a href='https://angel.co/u/joel-kalema' target="_blank" rel="noopener noreferrer"><FaAngellist className='hover:text-[#ffd175]' /></a>
                 </div>
             </div>
             <div className='w-2/4 hidden lg:block overflow-hidden'>
