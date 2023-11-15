@@ -5,6 +5,7 @@ import { CiTwitter } from 'react-icons/ci';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { FaAngellist } from 'react-icons/fa';
 import Link from "next/link";
+import Image from "next/image";
 import getProject from "../../components/data/portfolio";
 
 export default function Project() {
@@ -27,8 +28,10 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 drop-shadow-xl detail">
-                    <img src={project?.image} alt='images' className="w-full lg:w-3/5 shadow-2xl" />
-                    <div className="mt-6 lg:mt-0 lg:ml-6 relative">
+                    <div className="w-full md:w-3/5 overflow-hidden">
+                        <Image src={project?.image as string} className="shadow-2xl" alt='images' loading="lazy" layout="responsive" width={500} height={500} quality={100}/>
+                    </div>
+                    <div className="mt-6 lg:mt-0 md:w-2/5 lg:ml-6 relative">
                         <h1 className="font-bold text-3xl mt-8 ml-6 text-[#ffd175]">{project?.title}</h1>
                         <h1 className=" text-9xl font-bold opacity-20 mt-[-5rem]">{project?.title[0]}</h1>
                         <p className="text-sm mt-4">{project?.details}</p>
