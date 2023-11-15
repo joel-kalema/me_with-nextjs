@@ -21,10 +21,10 @@ export default function Infos (){
                     <p className='flex items-center mb-2'><span className='mr-2'><TbPhoneCalling /></span> +250 (0) 789-816-723</p>
                 </div>
                 <div className='flex w-full md:w-2/4 mt-4'>
-                    <a href='https://twitter.com/JoelJklm'><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
-                    <a href='https://github.com/joel-kalema'><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
-                    <a href='https://www.linkedin.com/in/joel-kalema/'><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
-                    <a href='https://angel.co/u/joel-kalema'><FaAngellist className='hover:text-[#ffd175]'/></a>
+                    <a href='https://twitter.com/JoelJklm' target="_blank"><CiTwitter className='mr-4 hover:text-[#ffd175]'/></a>
+                    <a href='https://github.com/joel-kalema' target="_blank"><FiGithub className='mr-4 hover:text-[#ffd175]'/></a>
+                    <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank"><FiLinkedin className='mr-4 hover:text-[#ffd175]'/></a>
+                    <a href='https://angel.co/u/joel-kalema' target="_blank"><FaAngellist className='hover:text-[#ffd175]'/></a>
                 </div>
             </div>
         </div>
