@@ -1,6 +1,16 @@
 export const projects = [
     {
         id: 1,
+        image: '/images/cbt.png',
+        title: 'CBT MINISTRIES INC',
+        details: "CBT MINISTRIES INC official website.",
+        fewDetail :'CBT MINISTRIES INC official...',
+        technologies: ['Nextjs', 'MongoDB','Strype', 'Prisma', 'Tailwind'],
+        live: 'https://christopherbeleke.com/',
+        state: 'private'
+    },
+    {
+        id: 2,
         image: '/images/neutral.jpg',
         title: 'Neutral',
         details: "Neutral is a digital agency platform that provides software development services to businesses, focusing on building and maintaining mobile and web applications. The platform has collaborated with 10+ commerce in the Democratic Republic of Congo (DRC).",
@@ -9,15 +19,26 @@ export const projects = [
         live: 'https://neutral.codes/',
         state: 'private'
     },
+    // {
+    //     id: 2,
+    //     image: '/images/comigra.jpg',
+    //     title: 'COMIGRA',
+    //     details: 'A mining coop in DRC, resulting in a 50% increase in membership retention and a 30% increase in new membership applications.',
+    //     fewDetail :'A mining coop in DRC, resulting...',
+    //     technologies: ['React', 'Sass'],
+    //     live: 'https://comigra.netlify.app/',
+    //     state: 'private'
+    // },
     {
-        id: 2,
-        image: '/images/comigra.jpg',
-        title: 'COMIGRA',
-        details: 'A mining coop in DRC, resulting in a 50% increase in membership retention and a 30% increase in new membership applications.',
-        fewDetail :'A mining coop in DRC, resulting...',
-        technologies: ['React', 'Sass'],
-        live: 'https://comigra.netlify.app/',
-        state: 'private'
+        id: 5,
+        image: '/images/imagai.png',
+        title: 'IMAGE AI',
+        details: 'ImagAI is an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.',
+        fewDetail :'ImagAI is an AI image SaaS platform...',
+        technologies: ['Nextjs', 'MongoDB', 'Tailwind'],
+        live: 'image-ai-generater.vercel.app/',
+        source: 'https://github.com/joel-kalema/image-ai-generator',
+        state: 'public'
     },
     {
         id: 3,
@@ -40,28 +61,6 @@ export const projects = [
         source: 'https://github.com/joel-kalema/luxury-cars',
         state: 'public'
     },
-    {
-        id: 5,
-        image: '/images/livemovi1.jpg',
-        title: 'SHOWNET',
-        details: 'A movie database website that displays all the information about a show including the discription and the rating of the show. You can search for a show, like and also comment on any of your favourite show. This project consumed TVmaze api.',
-        fewDetail :'A movie database website that...',
-        technologies: ['HTML', 'CSS', 'Js'],
-        live: 'https://tylher.github.io/Javascript-capstone/',
-        source: 'https://github.com/tylher/Javascript-capstone',
-        state: 'public'
-    },
-    // {
-    //     id: 6,
-    //     image: '/images/covid.jpg',
-    //     title: 'COVID-19-Live',
-    //     details: "COVID-19-Live-Now is a mobile web app that can show the list of countries and their live COVID-19 data.",
-    //     fewDetail :'COVID-19-Live-Now is a...',
-    //     technologies: ['React', 'Scss'],
-    //     live: 'https://dev--covid-datas.netlify.app/',
-    //     source: 'https://github.com/joel-kalema/COVID-19-Live-Now',
-    //     state: 'public'
-    // },
     {
         id: 6,
         image: '/images/math.jpg',
