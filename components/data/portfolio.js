@@ -9,26 +9,27 @@ export const projects = [
         live: 'https://christopherbeleke.com/',
         state: 'private'
     },
-    {
-        id: 2,
-        image: '/images/neutral.jpg',
-        title: 'Neutral',
-        details: "Neutral is a digital agency platform that provides software development services to businesses, focusing on building and maintaining mobile and web applications. The platform has collaborated with 10+ commerce in the Democratic Republic of Congo (DRC).",
-        fewDetail :'Neutral is a digital agency...',
-        technologies: ['React','Rails', 'Scss', 'Tailwind'],
-        live: 'https://neutral.codes/',
-        state: 'private'
-    },
     // {
     //     id: 2,
-    //     image: '/images/comigra.jpg',
-    //     title: 'COMIGRA',
-    //     details: 'A mining coop in DRC, resulting in a 50% increase in membership retention and a 30% increase in new membership applications.',
-    //     fewDetail :'A mining coop in DRC, resulting...',
-    //     technologies: ['React', 'Sass'],
-    //     live: 'https://comigra.netlify.app/',
+    //     image: '/images/neutral.jpg',
+    //     title: 'Neutral',
+    //     details: "Neutral is a digital agency platform that provides software development services to businesses, focusing on building and maintaining mobile and web applications. The platform has collaborated with 10+ commerce in the Democratic Republic of Congo (DRC).",
+    //     fewDetail :'Neutral is a digital agency...',
+    //     technologies: ['React','Rails', 'Scss', 'Tailwind'],
+    //     live: 'https://neutral.codes/',
     //     state: 'private'
     // },
+    {
+        id: 2,
+        image: '/images/updev.png',
+        title: 'UpDev',
+        details: "UpDev is more than just a social media platform; it's a thriving ecosystem designed to support your journey as a developer. Whether you're looking to learn, share, or collaborate, UpDev provides the tools and community you need to succeed. Join UpDev today and be a part of the future of development!",
+        fewDetail :'UpDev is more than just a social media...',
+        technologies: ['Nextjs', 'MongoDB', 'Tailwind'],
+        live: 'https://up-dev-iota.vercel.app',
+        source: 'https://github.com/joel-kalema/UpDev',
+        state: 'public'
+    },
     {
         id: 5,
         image: '/images/imagai.png',
@@ -36,7 +37,7 @@ export const projects = [
         details: 'ImagAI is an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.',
         fewDetail :'ImagAI is an AI image SaaS platform...',
         technologies: ['Nextjs', 'MongoDB', 'Tailwind'],
-        live: 'image-ai-generater.vercel.app/',
+        live: 'https://image-ai-generater.vercel.app/',
         source: 'https://github.com/joel-kalema/image-ai-generator',
         state: 'public'
     },
