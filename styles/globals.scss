@@ -3,11 +3,14 @@
 @import "~tailwindcss/utilities";
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
 
 body {
   background-color: #191d28;
   color: #c0c4d0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: .5px;
 }
 
@@ -24,6 +27,16 @@ button {
   padding: .3rem 2rem;
   font-size: small;
   transition: 0.6s;
+}
+
+.homepage {
+  height: 100dvh;
+  width: 100%;
+  background-image: url("/images/joel.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 button:hover {

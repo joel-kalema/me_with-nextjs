@@ -18,35 +18,32 @@ export default function HomePage() {
 
 
     return (
-        <div className="flex flex-col pb-32 md:pb-0 px-2 md:px-10 lg:flex-row lg:px-20 pt-28 relative" id='home'>
-            <div className="my-14 lg:my-20 pl-10 w-full lg:w-2/4 xl:pl-28">
-                <p className="text-sm text-[#ffd175] my-5 tracking-[.4em]">HELLO</p>
-                <h1 className="text-3xl md:text-5xl font-bold">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>
-                <h3 className="my-3">software developer</h3>
-                <p className="w-4/5 text-[1rem]"> I can help you build a product, feature or website Look through some
-                    of my work and experience! If you like what you see and have a project
-                    you need coded, don&apos;t hestiate to contact me.</p>
-                <div className='flex my-8'>
+        <div className="flex homepage flex-col pb-10 md:pb-0 md:px-10 lg:flex-row items-end lg:px-20 relative" id='home'>
+            <div className="w-full lg:w-3/4 mx-auto text-center">
+                <p className="text-sm text-[#ffd175] mb-10 tracking-[.8em] font-bold">HELLO</p>
+                <h1 className="text-3xl md:text-4xl">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>
+                <h3 className="my-3 text-3xl md:text-6xl font-bold">SOFTWARE DEVELOPER</h3>
+                {/* <div className='flex my-8'>
                     <button type='button' className="bg-[#ffd175] mr-6"><Link to='contact' offset={100} duration={2000}>Hire me</Link></button>
                     <a href="JOEL.pdf" download="JOEL.pdf" className='flex text-xs mt-4 text-[#ffd175]'>Download CV <BiDownload className='text-sm' /></a>
-                </div>
-                <div className='flex  w-3/6 mt-10 justify-between xl:text-2xl'>
+                </div> */}
+                <div className='flex  w-2/6 my-10 justify-between xl:text-2xl mx-auto'>
                     <a href='https://twitter.com/JoelJklm' target="_blank" rel="noopener noreferrer"><CiTwitter className='mr-4 hover:text-[#ffd175]' /></a>
                     <a href='https://github.com/joel-kalema' target="_blank" rel="noopener noreferrer"><FiGithub className='mr-4 hover:text-[#ffd175]' /></a>
                     <a href='https://www.linkedin.com/in/joel-kalema/' target="_blank" rel="noopener noreferrer"><FiLinkedin className='mr-4 hover:text-[#ffd175]' /></a>
                     <a href='https://angel.co/u/joel-kalema' target="_blank" rel="noopener noreferrer"><FaAngellist className='hover:text-[#ffd175]' /></a>
                 </div>
             </div>
-            <div className='w-2/4 hidden lg:block overflow-hidden'>
+            {/* <div className='w-2/4 hidden lg:block overflow-hidden'>
                 <Image src="/images/joel.png" alt="joel" loading="lazy" layout="responsive" width={500} height={500} quality={100} />
-                {/* <div className="mt-[-15rem] ml-[15rem] exp backdrop-blur-md px-4 py-2">
+                <div className="mt-[-15rem] ml-[15rem] exp backdrop-blur-md px-4 py-2">
                     <h2>experience</h2>
                     <h1 className="text-[#ffd175] font-bold">3+ Years</h1>
-                </div> */}
-            </div>
-            <Link to='about' className="text-xs hidden lg:block cursor-pointer tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[16rem] right-[5rem]">
+                </div>
+            </div> */}
+            {/* <Link to='about' className="text-xs hidden lg:block cursor-pointer tracking-[.45em] text-[#ffd175] rotate-90 absolute bottom-[16rem] right-[5rem]">
                 SCROLL DOWN
-            </Link>
+            </Link> */}
             <Link to='about' className='mx-auto lg:hidden mt-20'><AiOutlineArrowDown className='animate-bounce w-9 h-9 text-[#ffd175]' /></Link>
         </div>
     )

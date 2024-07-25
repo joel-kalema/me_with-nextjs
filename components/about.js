@@ -15,7 +15,7 @@ export default function About() {
     }, []);
 
     return (
-        <div className='bg-[#161922] py-40' id='about' data-aos="fade-up" data-aos-duration="1000">
+        <div className='py-40' id='about' data-aos="fade-up" data-aos-duration="1000">
             <div className="flex flex-col-reverse w-5/6 mx-auto md:flex-row">
                 <div className="flex items-center justify-center lg:w-2/4 w-full text-center md:text-start md:w-2/5 lg:2/4 relative" data-aos="fade-up" data-aos-duration="1000">
                     <div className="flex items-center flex-col md:items-start" >
