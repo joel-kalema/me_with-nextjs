@@ -19,6 +19,16 @@ export default function HomePage() {
 
     return (
         <div className="flex homepage flex-col pb-10 md:pb-0 md:px-10 lg:flex-row items-end lg:px-20 relative" id='home'>
+            {/* <div className='flex absolute top-[7rem] left-[14rem] rounded-full overflow-hidden'>
+            <div className=''>
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box2"></div>
+                <div class="box2"></div>
+                +
+            </div>
+            </div> */}
+
             <div className="w-full lg:w-3/4 mx-auto text-center">
                 <p className="text-sm text-[#ffd175] mb-10 tracking-[.8em] font-bold">HELLO</p>
                 <h1 className="text-3xl md:text-4xl">I&apos;m <span className="text-[#ffd175]">Joel</span> Kalema</h1>

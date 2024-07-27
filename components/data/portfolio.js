@@ -21,12 +21,12 @@ export const projects = [
     // },
     {
         id: 2,
-        image: '/images/updev.png',
+        image: '/images/updev.jpg',
         title: 'UpDev',
         details: "UpDev is more than just a social media platform; it's a thriving ecosystem designed to support your journey as a developer. Whether you're looking to learn, share, or collaborate, UpDev provides the tools and community you need to succeed. Join UpDev today and be a part of the future of development!",
         fewDetail :'UpDev is more than just a social media...',
         technologies: ['Nextjs', 'MongoDB', 'Tailwind'],
-        live: 'https://up-dev-iota.vercel.app',
+        live: 'https://updevcommunity.vercel.app/',
         source: 'https://github.com/joel-kalema/UpDev',
         state: 'public'
     },

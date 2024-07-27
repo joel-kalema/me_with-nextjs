@@ -28,7 +28,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="flex-col flex lg:flex-row py-20 px-10 lg:px-60 drop-shadow-xl detail">
-                    <div className="w-full md:w-3/5 overflow-hidden">
+                    <div className="w-full h-[60vh] md:w-3/5 overflow-hidden">
                         <Image src={project?.image as string} className="shadow-2xl" alt='images' loading="lazy" layout="responsive" width={500} height={500} quality={100}/>
                     </div>
                     <div className="mt-6 lg:mt-0 md:w-2/5 lg:ml-6 relative">

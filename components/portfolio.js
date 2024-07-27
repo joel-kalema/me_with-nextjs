@@ -1,16 +1,17 @@
 import { projects } from "./data/portfolio";
 import { useState, useEffect } from 'react';
 import AOS from "aos";
+import Image from "next/image";
 import { TbArrowNarrowRight } from 'react-icons/tb';
 import { useRouter } from "next/router";
 
-export default function Portfolio (){
+export default function Portfolio() {
     const [popUp, setpopUp] = useState([])
     const [popUptoggle, setpopUptoggle] = useState(false)
     const router = useRouter();
     const content = (project) => {
         //setpopUp([project])
-    //setpopUptoggle(!popUptoggle)
+        //setpopUptoggle(!popUptoggle)
         router.push(`/projects/${project.title.split(' ').join('_')}`);
     }
 
@@ -19,32 +20,34 @@ export default function Portfolio (){
         AOS.refresh();
     }, []);
 
-    return(
-        <div className="bg-[#161922] py-20" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
-            <div className="w-5/6 sm:w-4/6 mx-auto xl:w-3/6">
-            <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
-            <h2 className="text-center mb-6">Some of my best works</h2>
-            <div className="flex flex-wrap justify-between" data-aos="fade-up" data-aos-duration="1000">
-                {projects.map((project) => (
-                   <div key={project.id} className="w-full md:w-[45%] lg:w-[48%] mt-6 bg-[#1b212f] hover:shadow-xl relative" data-aos="fade-up" data-aos-duration="2000">
-                        <img src={project.image} alt='images' />
-                        <div className="pt-2 pb-6 pl-6 pr-6 relative project">
-                            <div className="flex text-xs">
-                                <div className="w-[1rem] h-[3rem] bg-[#ffd175] mt-[-2rem] exp backdrop-blur-md"></div>
-                                {project.technologies.map((lang) => (<p key={lang} className="ml-2 text-[#c0c4d0a6] mt-2">{lang}</p>))}
+    return (
+        <div className="bg-[#161922] placeholder-blue-gray-200" id="portfolio" data-aos="fade-up" data-aos-duration="1000">
+            <div className="py-20">
+                <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
+                <h2 className="text-center mb-6">Some of my best works</h2>
+                <div className="flex flex-wrap w-[70%] mx-auto justify-between" data-aos="fade-up" data-aos-duration="1000">
+                    {projects.map((project) => (
+                        <div key={project.id} className="w-full md:w-[45%] lg:w-[49%] mt-6 bg-[#1b212f] hover:shadow-xl relative" data-aos="fade-up" data-aos-duration="2000">
+                            <div className="w-full h-[35vh] overflow-hidden">
+                                <Image src={project.image} className="shadow-2xl" alt='images' loading="lazy" layout="responsive" width={500} height={500} quality={100} />
                             </div>
-                            <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
-                            <p className="text-xs mt-2 italic">{project.fewDetail}</p>
-                            <div onClick={() => content(project)} className="z-30 text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-2/5 lg:w-2/4 cursor-pointer">
-                                SEE MORE 
-                                <span className="text-2xl ml-2 flex">
-                                    <TbArrowNarrowRight/>
-                                </span>
+                            <div className="pt-2 pb-6 pl-6 pr-6 relative project">
+                                <div className="flex text-xs">
+                                    <div className="w-[1rem] h-[3rem] bg-[#ffd175] mt-[-2rem] exp backdrop-blur-md"></div>
+                                    {project.technologies.map((lang) => (<p key={lang} className="ml-2 text-[#c0c4d0a6] mt-2">{lang}</p>))}
+                                </div>
+                                <h1 className="font-bold mt-4 text-xl text-[#ffd175]">{project.title}</h1>
+                                <p className="text-xs mt-2 italic">{project.fewDetail}</p>
+                                <div onClick={() => content(project)} className="z-30 text-xs mt-4 flex items-center hover:text-[#ffd175] w-2/4 md:w-2/5 lg:w-2/4 cursor-pointer">
+                                    SEE MORE
+                                    <span className="text-2xl ml-2 flex">
+                                        <TbArrowNarrowRight />
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                   </div> 
-                ))}
-            </div>
+                    ))}
+                </div>
             </div>
             {/* {popUptoggle && (
                 <div onClick={content} className='fixed left-0 top-0 w-full h-screen bg-[#191d28ea] py-20 flex justify-center items-center exp backdrop-blur-xl' >

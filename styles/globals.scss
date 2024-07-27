@@ -3,7 +3,7 @@
 @import "~tailwindcss/utilities";
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
 
 body {
   background-color: #191d28;
@@ -14,7 +14,16 @@ body {
   letter-spacing: .5px;
 }
 
-button, [type='button'], [type='reset'], [type='submit'] {
+p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
   background-color: #ffd175;
   background-image: none;
@@ -108,8 +117,8 @@ form button {
 }
 
 .project {
-  background: rgb(27,33,47);
-  background: linear-gradient(0deg, rgba(27,33,47,1) 0%, rgba(27, 33, 47, 0) 100%);
+  background: rgb(27, 33, 47);
+  background: linear-gradient(0deg, rgba(27, 33, 47, 1) 0%, rgba(27, 33, 47, 0) 100%);
 }
 
 .bg-blue-gray-100 {
@@ -190,13 +199,13 @@ form button {
 }
 
 @keyframes hid {
-  100%{
+  100% {
     transform: translateX(100%);
   }
 }
 
 @keyframes slide {
-  0%{
+  0% {
     transform: translateX(100%);
   }
 }
@@ -204,5 +213,74 @@ form button {
 @media only screen and (min-width: 1024px) {
   .portfolio {
     padding: 0 25%;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+
+:root {
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: #c0c4d0;
+  --c2: rgba(168, 239, 255, 0.1);
+}
+
+.wrapper {
+  min-width: min(40rem, 100%);
+}
+
+.box1 {
+  font-size: 3vw;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  width: 16rem;
+  height: 6rem;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.box2 {
+  font-size: 3vw;
+  border: 1px solid;
+  border-radius: 1remy;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 60;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.box3 {
+  font-size: 3vw;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  width: 16rem;
+  height: 6rem;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
   }
 }

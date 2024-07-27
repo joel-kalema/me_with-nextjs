@@ -16,42 +16,18 @@ export default function About() {
 
     return (
         <div className='py-40' id='about' data-aos="fade-up" data-aos-duration="1000">
-            <div className="flex flex-col-reverse w-5/6 mx-auto md:flex-row">
-                <div className="flex items-center justify-center lg:w-2/4 w-full text-center md:text-start md:w-2/5 lg:2/4 relative" data-aos="fade-up" data-aos-duration="1000">
+            <div className="flex flex-col-reverse justify-center md:flex-row">
+                {/* <div className="flex items-center justify-center lg:w-2/4 w-full text-center md:text-start md:w-2/5 lg:2/4 relative" data-aos="fade-up" data-aos-duration="1000">
                     <div className="flex items-center flex-col md:items-start" >
                         <div className='w-4/4 rounded-full overflow-hidden about-image'>
                             <Image src='/images/joelabout.png' alt='joel' loading="lazy" layout="responsive" width={500} height={500} quality={100} />
                         </div>
-                        {/* <div className='w-3/6 flex items-center mt-[-1rem] z-40 mr-16 exp backdrop-blur-md px-4 py-2 bg-[#fff1] rounded-lg md:bottom-[30%] md:left-[1rem]'>
-                            <h1 className="text-[1.7rem] font-bold">3+</h1>
-                            <div className='ml-2'>
-                                <h2 className='flex items-center text-xs font-bold'><TbPoint className='text-[#ffd175]' /> Years</h2>
-                                <h2 className='flex items-center text-xs font-bold'><TbPoint className='text-[#ffd175]' /> Experience</h2>
-                            </div>
-                        </div> */}
-                        {/* <div className='w-3/6 exp backdrop-blur-md px-4 ml-10 mt-[.5rem] py-2 z-30 bg-[#fff1] rounded-lg md:bottom-[30%] md:left-[1rem]'>
-                            <h1 className="text-sm font-bold mb-4">Organizations</h1>
-                            <div className='flex justify-between'>
-                                <div className='flex items-center flex-col'>
-                                    <a href='https://www.microverse.org/' className='w-2/5 mb-2'>
-                                        <img src='/images/microverse.png' alt='microverse' className='' />
-                                    </a>
-                                    <p className='text-xs'>Microvese</p>
-                                </div>
-                                <div className='flex items-center flex-col'>
-                                    <a href='https://neutral.codes/' className='w-3/5 mb-2'>
-                                        <img src='/images/neutro.png' alt='neutral' className='w-[80%]' />
-                                    </a>
-                                    <p className='text-xs'>Neutral</p>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
 
-                </div>
-                <div className="w-full mt-10 md:mt-0 md:w-3/6 lg:w-2/4 text-center md:text-start " data-aos="fade-up" data-aos-duration="1000">
+                </div> */}
+                <div className="w-full flex flex-col justify-center items-center mt-10 md:mt-0 md:w-3/6 lg:w-2/4 md:text-start " data-aos="fade-up" data-aos-duration="1000">
                     <h1 className="text-3xl text-[#ffd175]">About me</h1>
-                    <p className="my-8 text-[1rem] w-3/4">I&apos;m a software developer specialized
+                    <p className="my-8 text-[1rem] w-3/4 text-center">I&apos;m a software developer specialized
                         in different technologies, Building web applications,
                         and beautiful websites for companies. Love
                         digging into hard problems, learning new languages and
@@ -60,7 +36,7 @@ export default function About() {
                     <button type='button' className="bg-[#ffd175] my-10"><Link to='contact' offset={100} duration={1000}>Hire me</Link></button>
                 </div>
             </div>
-            <div className="w-5/6 sm:w-4/6 xl:w-3/6 mx-auto mt-24" data-aos="fade-up" data-aos-duration="1000">
+            {/* <div className="w-5/6 sm:w-4/6 xl:w-3/6 mx-auto mt-24" data-aos="fade-up" data-aos-duration="1000">
                 <h1 className="text-[#ffd175] font-bold text-xl text-center flex items-center"><AiOutlineDoubleRight className='mr-4 direction' /> My skills</h1>
                 <div className="flex flex-wrap justify-around mt-6 px-2">
                     {skills.map((item) => (
@@ -70,7 +46,7 @@ export default function About() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
             <div className='w-5/6 sm:w-4/6 mx-auto xl:w-3/6'>
                 <Skills />
             </div>
