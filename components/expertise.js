@@ -16,7 +16,7 @@ export default function Area() {
                 I&apos;m Building scalable web applications, beautiful websites for companies, and  video animations.
             </p>
             <div className='bg-[#fff] w-5/6 h-[5ovh]'></div>
-            <div className='flex flex-col md:flex-row justify-around mt-12 w-[90%] mx-auto z-50'>
+            <div className='flex flex-col md:flex-row justify-around mt-12 w-[99%] mx-auto z-50'>
                 {expertise.map((item) => (
                     <div key={item.title} className='py-6 px-12 w-full mt-8 md:w-[32%] flex flex-col justify-center bg-[#1b212f] shadow-2xl' data-aos="fade-up" data-aos-duration="1000">
                         <h1 className='text-[#ffd175] text-3xl mx-auto'>{item.icon}</h1>
