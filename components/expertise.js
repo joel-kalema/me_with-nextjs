@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function Area (){
+export default function Area() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -24,6 +24,17 @@ export default function Area (){
                         <p className='text-[.7rem] mt-4'>{item.detail}</p>
                     </div>
                 ))}
+            </div>
+
+            <div className="loop-wrapper">
+                <div className="mountain"></div>
+                <div className="hill"></div>
+                <div className="tree"></div>
+                <div className="tree"></div>
+                <div className="tree"></div>
+                <div className="rock"></div>
+                <div className="truck"></div>
+                <div className="wheels"></div>
             </div>
         </div>
     )

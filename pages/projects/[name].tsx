@@ -41,8 +41,8 @@ export default function Project() {
                             >{lang}</p>))}
                         </div>
                         <div className="flex text-sm text-[#ffd175]">
-                            <a href={project?.live} className="flex items-center cursor-pointer mr-4" target="_blank" rel="noopener noreferrer">See Live<MdOutlineDirections className="ml-1" /></a>
-                            <a href={project?.source} className="flex items-center cursor-pointer" target="_blank" rel="noopener noreferrer">Source Code<AiFillGithub className="ml-1" /></a>
+                            <a href={project?.live} className="flex items-center cursor-pointer mr-4" target="_blank" rel="noopener noreferrer">LIVE<MdOutlineDirections className="ml-1" /></a>
+                            <a href={project?.source} className="flex items-center cursor-pointer" target="_blank" rel="noopener noreferrer">CODE<AiFillGithub className="ml-1" /></a>
                             <p className="text-xs pt-1">{"(" + project?.state + ")"}</p>
                         </div>
                     </div>

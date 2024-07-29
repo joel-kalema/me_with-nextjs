@@ -18,16 +18,117 @@ export default function HomePage() {
 
 
     return (
-        <div className="flex homepage flex-col pb-10 md:pb-0 md:px-10 lg:flex-row items-end lg:px-20 relative" id='home'>
-            {/* <div className='flex absolute top-[7rem] left-[14rem] rounded-full overflow-hidden'>
-            <div className=''>
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box2"></div>
-                <div class="box2"></div>
-                +
+        <div className="flex homepage flex-col pb-10 md:pb-0 md:px-10 items-end lg:px-20 relative" id='home'>
+            <div className='flex justify-between w-6/6  mt-[10rem] md:mt-[6rem] lg:mt-[3rem] mx-auto opacity-10'>
+                {/* <div className=''>
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box2"></div>
+                    <div class="box2"></div>
+                </div> */}
+
+                <div className="container">
+                    <div className="item">
+                        <i className="loader --2"></i>
+                    </div>
+                    <div className="item">
+                        {/* <i className="loader --9"></i> */}
+                    </div>
+                    <div className="item">
+                        <i className="loader --3"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --7"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --4"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --5"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --1"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --6"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --8"></i>
+                    </div>
+                </div>
+
+                {/* <div className="container">
+                    <div className="item">
+                        <i className="loader --7"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --9"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --1"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --3"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --4"></i>
+                    </div>
+                    
+                    <div className="item">
+                        <i className="loader --5"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --6"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --8"></i>
+                    </div>
+
+
+                    <div className="item">
+                        <i className="loader --2"></i>
+                    </div>
+                </div> */}
+
+
+                <div className="container">
+                    <div className="item">
+                        {/* <i className="loader --2"></i> */}
+                    </div>
+                    <div className="item">
+                        <i className="loader --9"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --7"></i>
+                    </div>
+                    <div className="item">
+                        {/* <i className="loader --4"></i> */}
+                    </div>
+                    <div className="item">
+                        <i className="loader --1"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --5"></i>
+                    </div>
+
+                    <div className="item">
+                        <i className="loader --6"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --8"></i>
+                    </div>
+                    <div className="item">
+                        <i className="loader --3"></i>
+                    </div>
+                </div>
             </div>
-            </div> */}
 
             <div className="w-full lg:w-3/4 mx-auto text-center">
                 <p className="text-sm text-[#ffd175] mb-10 tracking-[.8em] font-bold">HELLO</p>

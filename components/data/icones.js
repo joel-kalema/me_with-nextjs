@@ -40,7 +40,7 @@ export const langages = [
         icons: <DiRubyRough />
     },
     {
-        langages: 'Ruby on Rails',
+        langages: 'Rails',
         icons: <SiRubyonrails />
     },
     {
