@@ -2,10 +2,10 @@ export const projects = [
     {
         id: 1,
         image: '/images/cbt.png',
-        title: 'CBT MINISTRIES INC',
+        title: 'CBT MINISTRIES',
         details: "CBT MINISTRIES INC official website.",
         fewDetail :'CBT MINISTRIES INC official...',
-        technologies: ['Nextjs', 'MongoDB','Strype', 'Prisma', 'Tailwind'],
+        technologies: ['Nextjs', 'MongoDB','Strype', 'Tailwind'],
         live: 'https://christopherbeleke.com/',
         state: 'private'
     },

@@ -25,10 +25,10 @@ export default function Portfolio() {
             <div className="py-20">
                 <h1 className='text-3xl text-[#ffd175] text-center mb-10'>Portfolio</h1>
                 <h2 className="text-center mb-6">Some of my best works</h2>
-                <div className="flex flex-wrap w-[70%] mx-auto justify-between" data-aos="fade-up" data-aos-duration="1000">
+                <div className="flex flex-wrap w-[70%] md:w-[75%] mx-auto justify-between" data-aos="fade-up" data-aos-duration="1000">
                     {projects.map((project) => (
                         <div key={project.id} className="w-full md:w-[45%] lg:w-[49%] mt-6 bg-[#1b212f] hover:shadow-xl relative" data-aos="fade-up" data-aos-duration="2000">
-                            <div className="w-full h-[35vh] overflow-hidden">
+                            <div className="w-full h-[17vh] md:h-[20vh] lg:h-[35vh] overflow-hidden">
                                 <Image src={project.image} className="shadow-2xl" alt='images' loading="lazy" layout="responsive" width={500} height={500} quality={100} />
                             </div>
                             <div className="pt-2 pb-6 pl-6 pr-6 relative project">
